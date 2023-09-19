@@ -23,8 +23,6 @@
 - id: doi:10.1016/j.compchemeng.2018.03.025
   title: 'Big data approach to batch process monitoring: Simultaneous fault detection
     and diagnosis using nonlinear support vector machine-based feature selection'
-- id: eid:2-s2.0-85062405383
-  title: Multi-scale biomolecular modeling and design for engineering and medicine
 - id: doi:10.1007/s10898-018-0643-0
   title: Optimization of black-box problems using Smolyak grids and polynomial approximations
 - id: doi:10.1016/j.compchemeng.2018.10.016
@@ -60,9 +58,6 @@
     vector machines'
 - id: doi:10.1016/j.tibtech.2013.10.008
   title: Protein folding and de novo protein design for biotechnological applications
-- id: eid:2-s2.0-84911365880
-  title: 'A novel protein structure refinement method: Blind predictions during CASP10,
-    and an optimized protocol to maximize performance'
 - id: doi:10.1089/aid.2012.0173
   title: A Predictive Model for HIV Type 1 Coreceptor Selectivity
 - id: doi:10.1021/ct400556v
