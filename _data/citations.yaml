@@ -1,82 +1,826 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1016/b978-0-443-15274-0.50429-7
+  title: Data-driven prediction of peptide-MHC binding using oscillations of physicochemical
+    properties
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Hyeju Song
+  - Chris A. Kieslich
+  publisher: Computer Aided Chemical Engineering
+  date: '2023-01-01'
+  link: https://doi.org/gsrr77
+  orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1016/b978-0-443-15274-0.50428-5
+  title: Machine learning models for predicting membranolytic anticancer peptides
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Fatemeh Alimirzaei
+  - Chris A. Kieslich
+  publisher: Computer Aided Chemical Engineering
+  date: '2023-01-01'
+  link: https://doi.org/gsrr78
+  orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1016/B978-0-323-88506-5.50312-0
+  title: Data-driven prediction of antiviral peptides based on periodicities of amino
+    acid properties
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Chris A. Kieslich
+  - Fatemeh Alimirzaei
+  - Hyeju Song
+  - Matthew Do
+  - Paige Hall
+  publisher: 31st European Symposium on Computer Aided Process Engineering
+  date: '2021-01-01'
+  link: https://doi.org/gsrr79
+  orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.3389/fmolb.2021.618068
+  title: Role of Electrostatic Hotspots in the Selectivity of Complement Control Proteins
+    Toward Human and Bovine Complement Inhibition
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Yogesh B. Narkhede
+  - Avneesh K. Gautam
+  - Rohaine V. Hsu
+  - Wilson Rodriguez
+  - Nehemiah T. Zewde
+  - Reed E. S. Harrison
+  - Pablo R. Arantes
+  - Zied Gaieb
+  - Ronald D. Gorham
+  - Chris Kieslich
+  - Dimitrios Morikis
+  - Arvind Sahu
+  - Giulia Palermo
+  publisher: Frontiers in Molecular Biosciences
+  date: '2021-03-16'
+  link: https://doi.org/gsrr8b
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.1912207117
+  title: 'Reassessing enzyme kinetics: Considering protease-as-substrate interactions
+    in proteolytic networks'
+  authors:
+  - Meghan C. Ferrall-Fairbanks
+  - Chris A. Kieslich
+  - Manu O. Platt
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2020-01-24'
+  link: https://doi.org/gsrr8c
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12195-019-00580-5
+  title: Dynamic Model of Protease State and Inhibitor Trafficking to Predict Protease
+    Activity in Breast Cancer Cells
+  authors:
+  - W. Andrew Shockey
+  - Christopher A. Kieslich
+  - Catera L. Wilder
+  - Valencia Watson
+  - Manu O. Platt
+  publisher: Cellular and Molecular Bioengineering
+  date: '2019-06-19'
+  link: https://doi.org/gsrr8d
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/aic.16497
+  title: "A nonlinear support vector machine\u2010based feature selection approach\
+    \ for fault detection and diagnosis: Application to the Tennessee Eastman process"
+  authors:
+  - Melis Onel
+  - Chris A. Kieslich
+  - Efstratios N. Pistikopoulos
+  publisher: AIChE Journal
+  date: '2019-01-02'
+  link: https://doi.org/grwqwv
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/b978-0-444-64241-7.50341-4
+  title: Simultaneous Fault Detection and Identification in Continuous Processes via
+    nonlinear Support Vector Machine based Feature Selection
+  authors:
+  - Melis Onel
+  - Chris A. Kieslich
+  - Yannis A. Guzman
+  - Efstratios N. Pistikopoulos
+  publisher: 13th International Symposium on Process Systems Engineering (PSE 2018)
+  date: '2018-01-01'
+  link: https://doi.org/gsrr8f
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41598-018-26812-8
+  title: An analysis and evaluation of the WeFold collaborative for protein structure
+    prediction and its pipelines in CASP11 and CASP12
+  authors:
+  - Chen Keasar
+  - Liam J. McGuffin
+  - "Bj\xF6rn Wallner"
+  - Gaurav Chopra
+  - Badri Adhikari
+  - Debswapna Bhattacharya
+  - Lauren Blake
+  - Leandro Oliveira Bortot
+  - Renzhi Cao
+  - B. K. Dhanasekaran
+  - Itzhel Dimas
+  - Rodrigo Antonio Faccioli
+  - Eshel Faraggi
+  - Robert Ganzynkowicz
+  - Sambit Ghosh
+  - Soma Ghosh
+  - "Artur Gie\u0142do\u0144"
+  - Lukasz Golon
+  - Yi He
+  - Lim Heo
+  - Jie Hou
+  - Main Khan
+  - Firas Khatib
+  - George A. Khoury
+  - Chris Kieslich
+  - David E. Kim
+  - Pawel Krupa
+  - Gyu Rie Lee
+  - Hongbo Li
+  - Jilong Li
+  - Agnieszka Lipska
+  - Adam Liwo
+  - Ali Hassan A. Maghrabi
+  - Milot Mirdita
+  - Shokoufeh Mirzaei
+  - Magdalena A. Mozolewska
+  - Melis Onel
+  - Sergey Ovchinnikov
+  - Anand Shah
+  - Utkarsh Shah
+  - Tomer Sidi
+  - Adam K. Sieradzan
+  - "Magdalena \u015Alusarz"
+  - "Rafal \u015Alusarz"
+  - James Smadbeck
+  - Phanourios Tamamis
+  - Nicholas Trieber
+  - Tomasz Wirecki
+  - Yanping Yin
+  - Yang Zhang
+  - Jaume Bacardit
+  - Maciej Baranowski
+  - Nicholas Chapman
+  - Seth Cooper
+  - Alexandre Defelicibus
+  - Jeff Flatten
+  - Brian Koepnick
+  - "Zoran Popovi\u0107"
+  - Bartlomiej Zaborowski
+  - David Baker
+  - Jianlin Cheng
+  - Cezary Czaplewski
+  - "Alexandre Cl\xE1udio Botazzo Delbem"
+  - Christodoulos Floudas
+  - Andrzej Kloczkowski
+  - "Stanislaw O\u0142dziej"
+  - Michael Levitt
+  - Harold Scheraga
+  - Chaok Seok
+  - "Johannes S\xF6ding"
+  - Saraswathi Vishveshwara
+  - Dong Xu
+  - Ahmet Caglar
+  - Alan Coral
+  - Alison MacMillan
+  - Allen Lubow
+  - Barbara Failer
+  - Bruno Kestemont
+  - Catherine R. Landers
+  - Charles Robert Painter
+  - Christophe Garnier
+  - Claudine Sellin
+  - Dietmar Janz
+  - Douglas Craig Wheeler
+  - Vera Simon
+  - Dylan M. Flear
+  - Emmanuel Croze
+  - George Victor McIlvaine
+  - Gil Beecher
+  - Gordon Lawrie
+  - Guy Ykman
+  - Harald Feldmann
+  - Heidemarie K. Fuentes
+  - Hosokawa Terumasa
+  - Istvan Kovanecz
+  - James Absalom Longino
+  - Jan Hendrik Nijland
+  - Jasper A. Diderich
+  - Jeffrey M. Canfield
+  - Jesper Eriksson
+  - Jesse David Slone
+  - Joan Goldsworthy Appel
+  - Joanne Mitchell
+  - John Mitch
+  - Jorn Loots-Boiy
+  - June M. Brownlee
+  - Karsten Wilson
+  - Keith T. Clayton
+  - Kenneth E. DeFord
+  - Kirk J. Abbey
+  - Larry Withers
+  - Linda Wei
+  - Lloyd Ives
+  - Lori A. Miller
+  - Lynn Carpenter
+  - Manasa G. Sharma
+  - Manuel Ricci
+  - Mark Stewart Binfield
+  - Matthew John Davids
+  - Matthias Gaebel
+  - Michael D. Cassidy
+  - Michael Fagiola
+  - "Michael Pf\xFCtzenreuter"
+  - Nova Barlow
+  - Peter John Triggiani
+  - Renton Braden Mathew Innes
+  - Robert Leduc
+  - "Rodrigo Luccas Corr\xEAa dos Santos Gomes"
+  - Rosemarie L. R. Morneau
+  - Scott J. Zaccanelli
+  - Susan C. Kleinfelter
+  - T. J. A. van der Laan
+  - Thomas Bausewein
+  - Thomas J. George
+  - Varichev Mikhail
+  - Walter Barmettler
+  - Silvia N. Crivelli
+  publisher: Scientific Reports
+  date: '2018-07-02'
+  link: https://doi.org/gdtv5n
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acsomega.8b00606
+  title: Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
+  authors:
+  - Rohith R. Mohan
+  - Mark Wilson
+  - Ronald D. Gorham
+  - Reed E. S. Harrison
+  - Vasilios A. Morikis
+  - Chris A. Kieslich
+  - Asuka A. Orr
+  - Alexis V. Coley
+  - Phanourios Tamamis
+  - Dimitrios Morikis
+  publisher: ACS Omega
+  date: '2018-06-15'
+  link: https://doi.org/gdvzmr
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compchemeng.2018.03.025
+  title: 'Big data approach to batch process monitoring: Simultaneous fault detection
+    and diagnosis using nonlinear support vector machine-based feature selection'
+  authors:
+  - Melis Onel
+  - Chris A. Kieslich
+  - Yannis A. Guzman
+  - Christodoulos A. Floudas
+  - Efstratios N. Pistikopoulos
+  publisher: Computers &amp; Chemical Engineering
+  date: '2018-07-01'
+  link: https://doi.org/gdx3v6
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85062405383
+  title: Multi-scale biomolecular modeling and design for engineering and medicine
+  publisher: Meet the Faculty Candidate Poster Session - Sponsored by the Education
+    Division 2018 - Core Programming Area at the 2018 AIChE Annual Meeting
+  date: '2023-07-20'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-85062405383&partnerID=MN8TOARS
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10898-018-0643-0
+  title: Optimization of black-box problems using Smolyak grids and polynomial approximations
+  authors:
+  - Chris A. Kieslich
+  - Fani Boukouvala
+  - Christodoulos A. Floudas
+  publisher: Journal of Global Optimization
+  date: '2018-05-03'
+  link: https://doi.org/gdxnkz
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.compchemeng.2018.10.016
+  title: 'Reprint of: Big data approach to batch process monitoring: Simultaneous
+    fault detection and diagnosis using nonlinear support vector machine-based feature
+    selection'
+  authors:
+  - Melis Onel
+  - Chris A. Kieslich
+  - Yannis A. Guzman
+  - Christodoulos A. Floudas
+  - Efstratios N. Pistikopoulos
+  publisher: Computers &amp; Chemical Engineering
+  date: '2018-08-01'
+  link: https://doi.org/gsmkwr
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bpj.2017.04.005
+  title: 'AESOP: A Python Library for Investigating Electrostatics in Protein Interactions'
+  authors:
+  - Reed E.S. Harrison
+  - Rohith R. Mohan
+  - Ronald D. Gorham
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  publisher: Biophysical Journal
+  date: '2017-05-01'
+  link: https://doi.org/f983jp
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/prot.25274
+  title: 'Princeton_TIGRESS 2.0: High refinement consistency and net gains through
+    support vector machines and molecular dynamics in double-blind predictions during
+    the CASP11 experiment'
+  authors:
+  - George A. Khoury
+  - James Smadbeck
+  - Chris A. Kieslich
+  - Alexandra J. Koskosidis
+  - Yannis A. Guzman
+  - Phanourios Tamamis
+  - Christodoulos A. Floudas
+  publisher: 'Proteins: Structure, Function, and Bioinformatics'
+  date: '2017-03-21'
+  link: https://doi.org/gbk3dk
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jcim.5b00566
+  title: 'conSSert: Consensus SVM Model for Accurate Prediction of Ordered Secondary
+    Structure'
+  authors:
+  - Chris A. Kieslich
+  - James Smadbeck
+  - George A. Khoury
+  - Christodoulos A. Floudas
+  publisher: Journal of Chemical Information and Modeling
+  date: '2016-03-15'
+  link: https://doi.org/gsrr8g
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0148974
+  title: Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests
+    Intermolecular Interactions Driving Tropism
+  authors:
+  - Chris A. Kieslich
+  - Phanourios Tamamis
+  - Yannis A. Guzman
+  - Melis Onel
+  - Christodoulos A. Floudas
+  publisher: PLOS ONE
+  date: '2016-02-09'
+  link: https://doi.org/gsrr8h
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ejphar.2014.10.041
+  title: Derivation of ligands for the complement C3a receptor from the C-terminus
+    of C5a
+  authors:
+  - Reena Halai
+  - Meghan L Bellows-Peterson
+  - Will Branchett
+  - James Smadbeck
+  - Chris A Kieslich
+  - Daniel E Croker
+  - Matthew A Cooper
+  - Dimitrios Morikis
+  - Trent M Woodruff
+  - Christodoulos A Floudas
+  - Peter N Monk
+  publisher: European Journal of Pharmacology
+  date: '2014-12-01'
+  link: https://doi.org/f6sdz3
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/protein/gzu004
+  title: Engineering pre-SUMO4 as efficient substrate of SENP2
+  authors:
+  - Y. Liu
+  - C. A. Kieslich
+  - D. Morikis
+  - J. Liao
+  publisher: Protein Engineering Design and Selection
+  date: '2014-03-26'
+  link: https://doi.org/f53kr8
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/sb400168u
+  title: 'Forcefield_NCAA: <i>Ab Initio</i> Charge Parameters to Aid in the Discovery
+    and Design of Therapeutic Proteins and Peptides with Unnatural Amino Acids and
+    Their Application to Complement Inhibitors of the Compstatin Family'
+  authors:
+  - George A. Khoury
+  - James Smadbeck
+  - Phanourios Tamamis
+  - Andrew C. Vandris
+  - Chris A. Kieslich
+  - Christodoulos A. Floudas
+  publisher: ACS Synthetic Biology
+  date: '2014-01-14'
+  link: https://doi.org/gcb7gb
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/2046-1682-7-5
+  title: Insights into the mechanism of C5aR inhibition by PMX53 via implicit solvent
+    molecular dynamics simulations and docking
+  authors:
+  - Phanourios Tamamis
+  - Chris A Kieslich
+  - Gregory V Nikiforovich
+  - Trent M Woodruff
+  - Dimitrios Morikis
+  - Georgios Archontis
+  publisher: BMC Biophysics
+  date: '2014-08-12'
+  link: https://doi.org/gb8xvb
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/prot.24459
+  title: 'Princeton_TIGRESS: Protein geometry refinement using simulations and support
+    vector machines'
+  authors:
+  - George A. Khoury
+  - Phanourios Tamamis
+  - Neesha Pinnaduwage
+  - James Smadbeck
+  - Chris A. Kieslich
+  - Christodoulos A. Floudas
+  publisher: 'Proteins: Structure, Function, and Bioinformatics'
+  date: '2013-11-22'
+  link: https://doi.org/f56b45
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.tibtech.2013.10.008
+  title: Protein folding and de novo protein design for biotechnological applications
+  authors:
+  - George A. Khoury
+  - James Smadbeck
+  - Chris A. Kieslich
+  - Christodoulos A. Floudas
+  publisher: Trends in Biotechnology
+  date: '2014-02-01'
+  link: https://doi.org/f5sdgp
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84911365880
+  title: 'A novel protein structure refinement method: Blind predictions during CASP10,
+    and an optimized protocol to maximize performance'
+  publisher: 'Food, Pharmaceutical and Bioengineering Division 2013 - Core Programming
+    Area at the 2013 AIChE Annual Meeting: Global Challenges for Engineering a Sustainable
+    Future'
+  date: '2022-05-25'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84911365880&partnerID=MN8TOARS
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1089/aid.2012.0173
+  title: A Predictive Model for HIV Type 1 Coreceptor Selectivity
+  authors:
+  - Chris A. Kieslich
+  - David Shin
+  - "Aliana L\xF3pez de Victoria"
+  - "Gloria Gonz\xE1lez-Rivera"
+  - Dimitrios Morikis
+  publisher: AIDS Research and Human Retroviruses
+  date: '2013-10-01'
+  link: https://doi.org/gsrr8j
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.molimm.2012.07.006
+  title: "Erratum to \u201CElectrostatic exploration of the C3d\u2013FH4 interaction\
+    \ using a computational alanine scan\u201D [Mol. Immunol. 48 (2011) 1844\u2013\
+    1850]"
+  authors:
+  - Atlal M. El-Assaad
+  - Chris A. Kieslich
+  - Ronald D. Gorham
+  - Dimitrios Morikis
+  publisher: Molecular Immunology
+  date: '2013-01-01'
+  link: https://doi.org/gsrr8k
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/ct400556v
+  title: 'Forcefield_PTM: <i>Ab Initio</i> Charge and AMBER Forcefield Parameters
+    for Frequently Occurring Post-Translational Modifications'
+  authors:
+  - George A. Khoury
+  - Jeff P. Thompson
+  - James Smadbeck
+  - Chris A. Kieslich
+  - Christodoulos A. Floudas
+  publisher: Journal of Chemical Theory and Computation
+  date: '2013-12-02'
+  link: https://doi.org/f5j86t
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84911914362
+  title: Novel biclustering framework for tertiary contact prediction using low-homology
+    protein templates
+  publisher: 'Engineering Sciences and Fundamentals 2013 - Core Programming Area at
+    the 2013 AIChE Annual Meeting: Global Challenges for Engineering a Sustainable
+    Future'
+  date: '2023-07-20'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84911914362&partnerID=MN8TOARS
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.exer.2013.07.023
+  title: Novel compstatin family peptides inhibit complement activation by drusen-like
+    deposits in human retinal pigmented epithelial cell cultures
+  authors:
+  - Ronald D. Gorham
+  - David L. Forest
+  - Phanourios Tamamis
+  - "Aliana L\xF3pez de Victoria"
+  - "M\xE1rta Kraszni"
+  - Chris A. Kieslich
+  - Christopher D. Banna
+  - Meghan L. Bellows-Peterson
+  - Cynthia K. Larive
+  - Christodoulos A. Floudas
+  - Georgios Archontis
+  - Lincoln V. Johnson
+  - Dimitrios Morikis
+  publisher: Experimental Eye Research
+  date: '2013-11-01'
+  link: https://doi.org/f5hx5b
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84911378168
+  title: Novel framework for beta-sheet topology prediction using low-homology template-based
+    constraints
+  publisher: 'Food, Pharmaceutical and Bioengineering Division 2013 - Core Programming
+    Area at the 2013 AIChE Annual Meeting: Global Challenges for Engineering a Sustainable
+    Future'
+  date: '2023-07-20'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-84911378168&partnerID=MN8TOARS
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/2046-1682-5-3
+  title: Clustering of HIV-1 Subtypes Based on gp120 V3 Loop electrostatic properties
+  authors:
+  - "Aliana L\xF3pez de Victoria"
+  - Chris A Kieslich
+  - Apostolos K Rizos
+  - Elias Krambovitis
+  - Dimitrios Morikis
+  publisher: BMC Biophysics
+  date: '2012-02-07'
+  link: https://doi.org/gb8xvx
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s12195-011-0195-6
+  title: "Complement Inhibition by Staphylococcus aureus: Electrostatics of C3d\u2013\
+    EfbC and C3d\u2013Ehp Association"
+  authors:
+  - Ronald D. Gorham
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  publisher: Cellular and Molecular Bioengineering
+  date: '2011-08-18'
+  link: https://doi.org/c7d92b
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/jm201609k
+  title: 'De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities:
+    Theoretical Predictions and Experimental Validation'
+  authors:
+  - Meghan L. Bellows-Peterson
+  - Ho Ki Fung
+  - Christodoulos A. Floudas
+  - Chris A. Kieslich
+  - Li Zhang
+  - Dimitrios Morikis
+  - Kathryn J. Wareham
+  - Peter N. Monk
+  - Owen A. Hawksworth
+  - Trent M. Woodruff
+  publisher: Journal of Medicinal Chemistry
+  date: '2012-04-20'
+  link: https://doi.org/f3xz2c
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pone.0049925
+  title: Insights into the Structure, Correlated Motions, and Electrostatic Properties
+    of Two HIV-1 gp120 V3 Loops
+  authors:
+  - "Aliana L\xF3pez de Victoria"
+  - Phanourios Tamamis
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  publisher: PLoS ONE
+  date: '2012-11-19'
+  link: https://doi.org/f4dw46
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1002840
+  title: 'The Two Sides of Complement C3d: Evolution of Electrostatics in a Link between
+    Innate and Adaptive Immunity'
+  authors:
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  publisher: PLoS Computational Biology
+  date: '2012-12-27'
+  link: https://doi.org/f4hnhj
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/bip.21644
+  title: An evaluation of poisson-boltzmann electrostatic free energy calculations
+    through comparison with experimental mutagenesis data
+  authors:
+  - Ronald D. Gorham
+  - Chris A. Kieslich
+  - Aaron Nichols
+  - Noriko U. Sausman
+  - Marisse Foronda
+  - Dimitrios Morikis
+  publisher: Biopolymers
+  date: '2011-01-01'
+  link: https://doi.org/ctjd25
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/btpr.541
+  title: Automated computational framework for the analysis of electrostatic similarities
+    of proteins
+  authors:
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  - Jianfeng Yang
+  - Dimitrios Gunopulos
+  publisher: Biotechnology Progress
+  date: '2011-01-14'
+  link: https://doi.org/c3r7js
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10439-010-0226-9
+  title: Electrostatic Clustering and Free Energy Calculations Provide a Foundation
+    for Protein Design and Optimization
+  authors:
+  - Ronald D. Gorham
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  publisher: Annals of Biomedical Engineering
+  date: '2010-12-08'
+  link: https://doi.org/dkqgcf
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.molimm.2011.05.007
+  title: "Electrostatic exploration of the C3d\u2013FH4 interaction using a computational\
+    \ alanine scan"
+  authors:
+  - Atlal M. El-Assaad
+  - Chris A. Kieslich
+  - Ronald D. Gorham
+  - Dimitrios Morikis
+  publisher: Molecular Immunology
+  date: '2011-09-01'
+  link: https://doi.org/bbrq66
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/minf.201100002
+  title: Electrostatic Similarity Determination Using Multiresolution Analysis
+  authors:
+  - Huseyin Hakkoymaz
+  - Chris A. Kieslich
+  - Ronald D. Gorham Jr.
+  - Dimitrios Gunopulos
+  - Dimitrios Morikis
+  publisher: Molecular Informatics
+  date: '2011-08-01'
+  link: https://doi.org/c5vdsj
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jnoncrysol.2010.05.087
+  title: Is the rigid-body assumption reasonable?
+  authors:
+  - Chris A. Kieslich
+  - Ronald D. Gorham
+  - Dimitrios Morikis
+  publisher: Journal of Non-Crystalline Solids
+  date: '2011-01-01'
+  link: https://doi.org/fpn7m2
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jmgm.2011.04.010
+  title: The effect of electrostatics on factor H function and related pathologies
+  authors:
+  - Chris A. Kieslich
+  - Homero Vazquez
+  - Gabrielle N. Goodman
+  - "Aliana L\xF3pez de Victoria"
+  - Dimitrios Morikis
+  publisher: Journal of Molecular Graphics and Modelling
+  date: '2011-08-01'
+  link: https://doi.org/fkn3hr
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/jxb/erq228
+  title: A multifaceted study of stigma/style cysteine-rich adhesin (SCA)-like Arabidopsis
+    lipid transfer proteins (LTPs) suggests diversified roles for these LTPs in plant
+    growth and reproduction
+  authors:
+  - Keun Chae
+  - Benedict J. Gonong
+  - Seung-Chul Kim
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  - Shruthi Balasubramanian
+  - Elizabeth M. Lord
+  publisher: Journal of Experimental Botany
+  date: '2010-07-28'
+  link: https://doi.org/cqfgkv
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4049/jimmunol.0903261
+  title: "Influence of Electrostatics on the Complement Regulatory Functions of Kaposica,\
+    \ the Complement Inhibitor of Kaposi\u2019s Sarcoma-Associated Herpesvirus"
+  authors:
+  - Kalyani Pyaram
+  - Chris A. Kieslich
+  - Viveka Nand Yadav
+  - Dimitrios Morikis
+  - Arvind Sahu
+  publisher: The Journal of Immunology
+  date: '2010-01-20'
+  link: https://doi.org/fcks6c
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/bip.21388
+  title: Solvation effects in calculated electrostatic association free energies for
+    the C3d-CR2 complex, and comparison to experimental data
+  authors:
+  - Alexander S. Cheung
+  - Chris A. Kieslich
+  - Jianfeng Yang
+  - Dimitrios Morikis
+  publisher: Biopolymers
+  date: '2010-01-01'
+  link: https://doi.org/d84s4k
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1105/tpc.109.070854
+  title: A Gain-of-Function Mutation of<i>Arabidopsis</i>Lipid Transfer Protein 5
+    Disturbs Pollen Tube Tip Growth and Fertilization
+  authors:
+  - Keun Chae
+  - Chris A. Kieslich
+  - Dimitrios Morikis
+  - Seung-Chul Kim
+  - Elizabeth M. Lord
+  publisher: The Plant Cell
+  date: '2009-12-01'
+  link: https://doi.org/b8ndnq
+  orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -92,9 +836,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -111,21 +852,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
