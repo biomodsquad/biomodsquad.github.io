@@ -266,6 +266,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-26812-8/MediaObjects/41598_2018_26812_Fig5_HTML.jpg
 - id: doi:10.1021/acsomega.8b00606
   title: Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
   authors:
@@ -285,6 +286,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
+  image: https://pubs.acs.org/cms/10.1021/acsomega.8b00606/asset/images/medium/ao-2018-00606f_0002.gif
 - id: doi:10.1016/j.compchemeng.2018.03.025
   title: 'Big data approach to batch process monitoring: Simultaneous fault detection
     and diagnosis using nonlinear support vector machine-based feature selection'
@@ -300,6 +302,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S009813541830231X-gr3.jpg
 - id: doi:10.1007/s10898-018-0643-0
   title: Optimization of black-box problems using Smolyak grids and polynomial approximations
   authors:
@@ -312,6 +315,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10898-018-0643-0/MediaObjects/10898_2018_643_Fig10_HTML.gif
 - id: doi:10.1016/j.bpj.2017.04.005
   title: 'AESOP: A Python Library for Investigating Electrostatics in Protein Interactions'
   authors:
@@ -326,6 +330,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
+  image: https://www.cell.com/cms/attachment/56655901-daed-40f0-9144-e4a21d985643/gr2.jpg
 - id: doi:10.1002/prot.25274
   title: 'Princeton_TIGRESS 2.0: High refinement consistency and net gains through
     support vector machines and molecular dynamics in double-blind predictions during
