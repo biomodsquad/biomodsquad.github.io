@@ -1,23 +1,160 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+- id: doi:10.1016/b978-0-443-15274-0.50429-7
+  title: Data-driven prediction of peptide-MHC binding using oscillations of physicochemical
+    properties
+  
+- id: doi:10.1016/b978-0-443-15274-0.50428-5
+  title: Machine learning models for predicting membranolytic anticancer peptides
+  
+- id: doi:10.1016/B978-0-323-88506-5.50312-0
+  title: Data-driven prediction of antiviral peptides based on periodicities of amino
+    acid properties
+  
+- id: doi:10.3389/fmolb.2021.618068
+  image: https://www.frontiersin.org/files/Articles/618068/fmolb-08-618068-HTML/image_m/fmolb-08-618068-g005.jpg
+  
+- id: doi:10.1073/pnas.1912207117
+  image: https://www.pnas.org/doi/full/10.1073/pnas.1912207117
+  
+- id: doi:10.1007/s12195-019-00580-5
+  image: https://link.springer.com/article/10.1007/s12195-019-00580-5/figures/7
+  
+- id: doi:10.1002/aic.16497
+  title: "A nonlinear support vector machine\u2010based feature selection approach\
+    \ for fault detection and diagnosis: Application to the Tennessee Eastman process"
+  
+- id: doi:10.1038/s41598-018-26812-8
+  title: An analysis and evaluation of the WeFold collaborative for protein structure
+    prediction and its pipelines in CASP11 and CASP12
+  
+- id: doi:10.1021/acsomega.8b00606
+  title: Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
+  
+- id: doi:10.1016/j.compchemeng.2018.03.025
+  title: 'Big data approach to batch process monitoring: Simultaneous fault detection
+    and diagnosis using nonlinear support vector machine-based feature selection'
+  
+- id: eid:2-s2.0-85062405383
+  title: Multi-scale biomolecular modeling and design for engineering and medicine
+  
+- id: doi:10.1007/s10898-018-0643-0
+  title: Optimization of black-box problems using Smolyak grids and polynomial approximations
+  
+- id: doi:10.1016/j.compchemeng.2018.10.016
+  title: 'Reprint of: Big data approach to batch process monitoring: Simultaneous
+    fault detection and diagnosis using nonlinear support vector machine-based feature
+    selection'
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1016/j.bpj.2017.04.005
+  title: 'AESOP: A Python Library for Investigating Electrostatics in Protein Interactions'
+  
+- id: doi:10.1002/prot.25274
+  title: 'Princeton_TIGRESS 2.0: High refinement consistency and net gains through
+    support vector machines and molecular dynamics in double-blind predictions during
+    the CASP11 experiment'
+  
+- id: doi:10.1021/acs.jcim.5b00566
+  title: 'conSSert: Consensus SVM Model for Accurate Prediction of Ordered Secondary
+    Structure'
+  
+- id: doi:10.1371/journal.pone.0148974
+  title: Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests
+    Intermolecular Interactions Driving Tropism
+  
+- id: doi:10.1016/j.ejphar.2014.10.041
+  title: Derivation of ligands for the complement C3a receptor from the C-terminus
+    of C5a
+  
+- id: doi:10.1093/protein/gzu004
+  title: Engineering pre-SUMO4 as efficient substrate of SENP2
+  
+- id: doi:10.1021/sb400168u
+  title: 'Forcefield_NCAA: <i>Ab Initio</i> Charge Parameters to Aid in the Discovery
+    and Design of Therapeutic Proteins and Peptides with Unnatural Amino Acids and
+    Their Application to Complement Inhibitors of the Compstatin Family'
+  
+- id: doi:10.1186/2046-1682-7-5
+  title: Insights into the mechanism of C5aR inhibition by PMX53 via implicit solvent
+    molecular dynamics simulations and docking
+  
+- id: doi:10.1002/prot.24459
+  title: 'Princeton_TIGRESS: Protein geometry refinement using simulations and support
+    vector machines'
+  
+- id: doi:10.1016/j.tibtech.2013.10.008
+  title: Protein folding and de novo protein design for biotechnological applications
+  
+- id: eid:2-s2.0-84911365880
+  title: 'A novel protein structure refinement method: Blind predictions during CASP10,
+    and an optimized protocol to maximize performance'
+  
+- id: doi:10.1089/aid.2012.0173
+  title: A Predictive Model for HIV Type 1 Coreceptor Selectivity
+  
+- id: doi:10.1021/ct400556v
+  title: 'Forcefield_PTM: <i>Ab Initio</i> Charge and AMBER Forcefield Parameters
+    for Frequently Occurring Post-Translational Modifications'
+  
+- id: doi:10.1016/j.exer.2013.07.023
+  title: Novel compstatin family peptides inhibit complement activation by drusen-like
+    deposits in human retinal pigmented epithelial cell cultures
+  
+- id: doi:10.1186/2046-1682-5-3
+  title: Clustering of HIV-1 Subtypes Based on gp120 V3 Loop electrostatic properties
+  
+- id: doi:10.1007/s12195-011-0195-6
+  title: "Complement Inhibition by Staphylococcus aureus: Electrostatics of C3d\u2013\
+    EfbC and C3d\u2013Ehp Association"
+  
+- id: doi:10.1021/jm201609k
+  title: 'De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities:
+    Theoretical Predictions and Experimental Validation'
+  
+- id: doi:10.1371/journal.pone.0049925
+  title: Insights into the Structure, Correlated Motions, and Electrostatic Properties
+    of Two HIV-1 gp120 V3 Loops
+  
+- id: doi:10.1371/journal.pcbi.1002840
+  title: 'The Two Sides of Complement C3d: Evolution of Electrostatics in a Link between
+    Innate and Adaptive Immunity'
+  
+- id: doi:10.1002/bip.21644
+  title: An evaluation of poisson-boltzmann electrostatic free energy calculations
+    through comparison with experimental mutagenesis data
+  
+- id: doi:10.1002/btpr.541
+  title: Automated computational framework for the analysis of electrostatic similarities
+    of proteins
+    
+- id: doi:10.1007/s10439-010-0226-9
+  title: Electrostatic Clustering and Free Energy Calculations Provide a Foundation
+    for Protein Design and Optimization
+  
+- id: doi:10.1016/j.molimm.2011.05.007
+  title: "Electrostatic exploration of the C3d\u2013FH4 interaction using a computational\
+    \ alanine scan"
+  
+- id: doi:10.1002/minf.201100002
+  title: Electrostatic Similarity Determination Using Multiresolution Analysis
+  
+- id: doi:10.1016/j.jnoncrysol.2010.05.087
+  title: Is the rigid-body assumption reasonable?
+  
+- id: doi:10.1016/j.jmgm.2011.04.010
+  title: The effect of electrostatics on factor H function and related pathologies
+  
+- id: doi:10.1093/jxb/erq228
+  title: A multifaceted study of stigma/style cysteine-rich adhesin (SCA)-like Arabidopsis
+    lipid transfer proteins (LTPs) suggests diversified roles for these LTPs in plant
+    growth and reproduction
+  
+- id: doi:10.4049/jimmunol.0903261
+  title: "Influence of Electrostatics on the Complement Regulatory Functions of Kaposica,\
+    \ the Complement Inhibitor of Kaposi\u2019s Sarcoma-Associated Herpesvirus"
+  
+- id: doi:10.1002/bip.21388
+  title: Solvation effects in calculated electrostatic association free energies for
+    the C3d-CR2 complex, and comparison to experimental data
+  
+- id: doi:10.1105/tpc.109.070854
+  title: A Gain-of-Function Mutation of<i>Arabidopsis</i>Lipid Transfer Protein 5
+    Disturbs Pollen Tube Tip Growth and Fertilization  
