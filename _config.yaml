@@ -7,12 +7,11 @@ footer: images/tmv_assemb.jpg
 
 # site social media and other links
 links:
-  email: contact@biomodsquad.com
-  orcid: 0000-0001-8713-9213
+  email: kieslich@auburn.edu
+  orcid: 0000-0002-1845-6589
   google-scholar: ETJoidYAAAAJ
-  github: biomodsquad
-  twitter: biomodsquad
-  youtube: biomodsquad
+  github: https://github.com/biomodsquad/
+  youtube: https://www.youtube.com/c/ChrisKieslich
 
 ### jekyll settings
 
