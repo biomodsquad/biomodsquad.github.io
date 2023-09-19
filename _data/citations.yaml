@@ -75,7 +75,7 @@
   orcid: 0000-0002-1845-6589
   plugin: sources.py
   file: sources.yaml
-  image: https://www.pnas.org/doi/full/10.1073/pnas.1912207117
+  image: https://www.pnas.org/cms/10.1073/pnas.1912207117/asset/85a1d0f5-ddfa-41fa-84ac-bccece43d755/assets/graphic/pnas.1912207117fig05.jpeg
 - id: doi:10.1007/s12195-019-00580-5
   title: Dynamic Model of Protease State and Inhibitor Trafficking to Predict Protease
     Activity in Breast Cancer Cells
