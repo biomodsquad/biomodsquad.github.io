@@ -5,6 +5,12 @@
 
 Our work focuses on using computer simulations, global optimization, and machine learning to model biology and disease across molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we apply machine learning and optimization algorithms to develop models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales. Our work also focuses on general advancements in machine learning and optimization algorithms to support our therapeutic design research. On this site you will find descriptions of current and past projects, along with relevant publications. Additionally, you can find details on our efforts to develop computational tools for research and teaching, but please feel free to reach out if you have any questions.
 
+{%
+  include figure.html
+  image="images/research_areas.jpg"
+  width="400px"
+%}
+
 {% include section.html %}
 
 ## Highlights
