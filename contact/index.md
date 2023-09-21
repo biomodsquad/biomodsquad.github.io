@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Our lab is part of [Auburn University](https://auburn.edu/)’s [Department of Chemical Engineering](https://www.eng.auburn.edu/chen/#gsc.tab=0) in the [Samuel Ginn College of Engineering](https://www.eng.auburn.edu/). 
+Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department of Chemical Engineering](https://www.eng.auburn.edu/chen/) in the [Samuel Ginn College of Engineering](https://www.eng.auburn.edu/). 
 
 {%
   include button.html
