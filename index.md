@@ -11,7 +11,7 @@ Our work focuses on using computer simulations, global optimization, and machine
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research has two main focuses, Data-driven Therapeutic Design and Multi-scale Biomolecular Modeling, and integrates molecular and systems modeling with machine learning and optimization. 
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our projects are often aimed at bridging the molecular and systems scales to gain mesoscale understanding of health and disease. 
 
 {%
   include button.html
@@ -59,8 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
+Our team is highly collaborative and strives to find creative solutions to challenging problems in therapeutic design.
 {%
   include button.html
   link="team"
