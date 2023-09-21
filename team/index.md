@@ -7,20 +7,22 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our group (BioModSquad) strives to find creative solutions to challenging problems in therapeutic design, 
+and we employ a crosscutting approach for developing computational tools that incorporates multi-scale 
+biomolecular modeling, machine learning, and global optimization. Accordingly, we strive to build an 
+environment where diverse perspectives and experiences are not only welcomed but sought after.
+
 
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/tmv_assemb.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team is regularly looking for new members to join our group that share our passion for computational 
+therapeutic design, and if interested please reach out to Dr. K about current openings. 
+
 
 {% include section.html %}
 
