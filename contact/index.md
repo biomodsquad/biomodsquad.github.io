@@ -19,7 +19,7 @@ Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department 
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="[https://www.google.com/maps](https://maps.app.goo.gl/UHssGqPs6NcDDr3a8)"
+  link="https://maps.app.goo.gl/UHssGqPs6NcDDr3a8"
 %}
 
 {% include section.html %}
