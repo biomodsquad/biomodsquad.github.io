@@ -1,8 +1,9 @@
 ---
-name: Chris A. Kieslich (a.k.a. Dr. K)
+name: Chris A. Kieslich<br>(a.k.a. Dr. K)
 image: images/kieslich.jpeg
 role: pi
 aliases:
+  - CA Kieslich
   - C.A. Kieslich
   - Chris Kieslich
   - Chris A. Kieslich
