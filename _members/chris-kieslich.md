@@ -1,10 +1,11 @@
 ---
 name: Chris A. Kieslich
-image: images/kieslich.jpg
+image: images/kieslich.jpeg
 role: pi
 aliases:
   - C.A. Kieslich
   - Chris Kieslich
+  - Chris A. Kieslich
   - Christopher Kieslich
 links:
   home-page: https://eng.auburn.edu/directory/cak0071
