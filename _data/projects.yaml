@@ -3,8 +3,7 @@
   group: research
   image: images/fftML.png
   link: 
-  description: Python package for developing and analyzing machine learned models of protein function and properties that leverage 
-  periodicities in physicochemical properties along protein sequences. 
+  description: Python package for developing and analyzing machine learned models of protein function and properties that leverage periodicities in physicochemical properties along protein sequences. 
   repo: 
   tags:
     - software
@@ -14,8 +13,7 @@
   group: research
   image: images/proteinGNN.png
   link: 
-  description: Provides basic tools for manipulating PDB files, including visualization through dash.bio, and provides a framework 
-  for developing Graph Neural Networks based portein structural data.
+  description: Provides basic tools for manipulating PDB files, including visualization through dash.bio, and provides a framework for developing Graph Neural Networks based portein structural data.
   repo: 
   tags:
     - software
@@ -25,8 +23,7 @@
   group: research
   image: images/smolyak.png
   link: https://github.com/biomodsquad/smolyak-surrogate-modeling
-  description: Work in collaboration with Mike Howard (Auburn University) aimed at developing tools for multi-scale modeling based on Smolyak 
-  sparse grids. 
+  description: Work in collaboration with Mike Howard (Auburn University) aimed at developing tools for multi-scale modeling based on Smolyak sparse grids. 
   repo: 
   tags: biomodsquad/smolyak-surrogate-modeling
     - software
@@ -36,8 +33,7 @@
   group: education
   image: images/shiny.png
   link: https://cakieslich.github.io/introCSB/
-  description: These resources include interactive modules that are generally applicable to learning the basics of systems biology modeling, 
-  as well as, coding examples for using R to develop and analyze various types of systems biology models.
+  description: These resources include interactive modules that are generally applicable to learning the basics of systems biology modeling, as well as, coding examples for using R to develop and analyze various types of systems biology models.
   repo: cakieslich/introCSB
   tags:
     - resource
