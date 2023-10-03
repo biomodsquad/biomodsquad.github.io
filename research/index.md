@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Advances in recent years have brought an abundance of data regarding molecular level details of biology, yet there is still often an absence of understanding in how molecular level phenomena contribute to health and disease. Our work strives to connect molecular structure and function with macroscale markers of medicine to develop computational tools for thereapeutic design.   
+Advances in recent years have brought an abundance of data regarding the molecular level details of biology, yet there is still often an absence of understanding in how molecular level phenomena contribute to health and disease. Our work strives to connect molecular structure and function with macroscale observations to develop computational tools for thereapeutic design.   
 
 {% include section.html %}
 
