@@ -7,8 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Advances in recent years have brought an abundance of data regarding molecular level details of biology, yet there is still often an absence of understanding in how molecular level phenomena contribute to health and disease. Our work strives to connect molecular structure and function with macroscale markers of medicine to develop computational tools for thereapeutic design.   
 
 {% include section.html %}
 
