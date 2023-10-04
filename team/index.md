@@ -16,7 +16,8 @@ environment where diverse perspectives and experiences are not only welcomed but
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% include list.html data="members" component="portrait" filters="role: postdoc" %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!postdoc$)" %}
 
 {% include section.html background="images/tmv_assemb.jpg" dark=true %}
 

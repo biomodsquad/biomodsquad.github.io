@@ -5,9 +5,9 @@ role: postdoc
 group: current
 
 links:
-  linkedin: https://www.linkedin.com/in/sislamau/
+  linkedin: sislamau
   orcid: 0000-0002-2214-4684
-  scholar: https://scholar.google.com/citations?user=j6hl80QAAAAJ&hl=en
+  google-scholar: j6hl80QAAAAJ
   
 ---
 Dr. Sumaiya Islam earned her B.S. in Chemical Engineering from the Bangladesh University of Engineering and Technology 
