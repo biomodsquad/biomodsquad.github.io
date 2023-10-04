@@ -2,6 +2,7 @@
 name: Dr. Sumaiya Islam
 image: images/sumaiya.jpg
 role: postdoc
+group: current
 
 links:
   linkedin: https://www.linkedin.com/in/sislamau/
