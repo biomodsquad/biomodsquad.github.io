@@ -1,6 +1,6 @@
 ---
 name: Michaela Bush
-image: images/bush.jpeg
+image: images/bush-michaela.jpg
 role: phd
 group: current
 ---
