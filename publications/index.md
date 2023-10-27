@@ -14,6 +14,8 @@ Advances in recent years have brought an abundance of data regarding the molecul
 ## Highlighted
 
 {% include citation.html lookup="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks" style="rich" %}
+{% include citation.html lookup="An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12" style="rich" %}
+{% include citation.html lookup="Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism" style="rich" %}
 
 {% include section.html %}
 
