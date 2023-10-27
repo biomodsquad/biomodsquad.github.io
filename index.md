@@ -77,7 +77,7 @@ Our team is highly collaborative and strives to find creative solutions to chall
 
 {%
   include feature.html
-  image="images/group_pic_xmas2022.jpg"
+  image="images/biomodsquad_26oct23.jpg"
   link="team"
   title="Our Team"
   text=text
