@@ -22,6 +22,10 @@ Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department 
   link="https://maps.app.goo.gl/UHssGqPs6NcDDr3a8"
 %}
 
+<video autoplay muted plays-inline class="welcome-video" style= "width: 100%;">
+  <source src="images/around_ross_hall.mp4" type="video/mp4">
+</video>
+
 {% include section.html %}
 
 {% capture col1 %}
