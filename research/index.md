@@ -10,7 +10,7 @@ nav:
 {%
   include figure.html
   image="/images/biomodsquad_areas.jpg"
-  width="100%"
+  width="66%"
 %}
 
 There is serious concern that the continued increase in drug development costs is unsustainable and will lead to further increases in already exorbitant drug prices, highlighting the need for a new paradigm for therapeutic discovery. To meet these challenges, we develop tools for therapeutic design to accelerate discovery and enable personalized medicine. Our work integrates molecular and systems modeling, machine learning, and global optimization to develop multi-scale models of biomolecular systems, and then leverages these models for the design of novel therapeutics.
