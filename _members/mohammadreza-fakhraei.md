@@ -1,6 +1,6 @@
 ---
 name: Mohammadreza Fakhraei 
-image: images/Mohammadreza.jpg
+image: images/reza.jpg
 role: phd
 group: current
 ---
