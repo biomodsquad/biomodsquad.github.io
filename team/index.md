@@ -12,6 +12,11 @@ and we employ a crosscutting approach for developing computational tools that in
 biomolecular modeling, machine learning, and global optimization. Accordingly, we strive to build an 
 environment where diverse perspectives and experiences are not only welcomed but sought after.
 
+{%
+  include figure.html
+  image="images/biomodsquad_26oct23.jpg"
+  width="100%"
+%}
 
 {% include section.html %}
 
