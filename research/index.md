@@ -19,7 +19,7 @@ nd integrates molecular and systems modeling with machine learning and optimizat
   link="research"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
-  flip=true
+  flip=false
   style="bare"
 %}
 
@@ -27,7 +27,7 @@ nd integrates molecular and systems modeling with machine learning and optimizat
 
 {%
   include feature.html
-  image="images/research_areas.jpg"
+  image="images/vaccine1.jpg"
   link="research"
   title="Our Research"
   text=text
