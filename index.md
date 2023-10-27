@@ -38,6 +38,7 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 {% capture text %}
 
 Our projects are often aimed at bridging the molecular and systems scales to gain mesoscale understanding of health and disease. 
+(Painting by David S. Goodsell) 
 
 {%
   include button.html
