@@ -5,7 +5,7 @@ nav:
   tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Tools
 
 We are developing open source tools for research and education at the intersection of molecular/systems modeling, machine learning
 and optimization. These tools include foundational resources that enable therapeutic design and application specific models.
