@@ -8,7 +8,7 @@ nav:
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
 <video autoplay muted plays-inline class="welcome-video" style= "width: 100%;">
-  <source src="images/biomodsquad_welcome.mp4" type="video/mp4">
+  <source src="/images/around_ross_hall.mp4" type="video/mp4">
 </video>
 
 Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department of Chemical Engineering](https://www.eng.auburn.edu/chen/) in the [Samuel Ginn College of Engineering](https://www.eng.auburn.edu/). 
