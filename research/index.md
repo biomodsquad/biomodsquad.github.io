@@ -2,25 +2,33 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Areas of research
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Advances in recent years have brought an abundance of data regarding the molecular level details of biology, yet there is still often an absence of understanding in how molecular level phenomena contribute to health and disease. Our work strives to connect molecular structure and function with macroscale observations to develop computational tools for thereapeutic design.   
+There is serious concern that the continued increase in drug development costs is unsustainable and will lead to further increases in already exorbitant drug prices, highlighting the need for a new paradigm for therapeutic discovery. To meet these challenges, we develop tools for therapeutic design to accelerate discovery and enable personalized medicine. Our work integrates molecular and systems modeling, machine learning, and global optimization to develop multi-scale models of biomolecular systems, and then leverages these models for the design of novel therapeutics.
 
-{% include section.html %}
+{% capture text %}
 
-## Highlighted
+Our research has two main focuses, Data-driven Therapeutic Design and Multi-scale Biomolecular Modeling, a
+nd integrates molecular and systems modeling with machine learning and optimization. 
 
-{% include citation.html lookup="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks" style="rich" %}
+{%
+  include button.html
+  link="research"
+  text="See our publications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
 
-{% include section.html %}
+{% endcapture %}
 
-## All
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+{%
+  include feature.html
+  image="images/research_areas.jpg"
+  link="research"
+  title="Our Research"
+  text=text
+%}
