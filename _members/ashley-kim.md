@@ -1,7 +1,7 @@
 ---
 name: Suhyeon Kim
 image: images/ashley.jpg
-role: phd
+role: ms
 group: current
 
 links:
