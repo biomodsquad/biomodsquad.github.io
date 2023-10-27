@@ -15,7 +15,7 @@ environment where diverse perspectives and experiences are not only welcomed but
 {%
   include figure.html
   image="/images/biomodsquad_26oct23.jpg"
-  width="100%"
+  width="75%"
 %}
 
 {% include section.html %}
