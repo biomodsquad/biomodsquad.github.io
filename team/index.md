@@ -26,7 +26,7 @@ environment where diverse perspectives and experiences are not only welcomed but
 {% include list.html data="members" component="portrait" filters="role: ms" %}
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
 
-{% include section.html background="images/tmv_assemb.jpg" dark=true %}
+{% include section.html%}
 
 Our team is regularly looking for new members to join our group that share our passion for computational 
 therapeutic design, and if interested please reach out to Dr. K about current openings. 
