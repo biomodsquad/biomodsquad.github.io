@@ -1,7 +1,7 @@
 ---
 ---
 
-<video autoplay muted plays-inline class="welcome-video">
+<video autoplay muted plays-inline class="welcome-video" style= "width: 100%;">
   <source src="images/biomodsquad_welcome.mp4" type="video/mp4">
 </video>
 
