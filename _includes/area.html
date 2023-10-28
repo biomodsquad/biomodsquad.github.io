@@ -1,0 +1,27 @@
+<div
+  class="area"
+  {% if include.flip %}
+    data-flip
+  {% endif %}
+>
+  <a
+    {% if include.link %}
+      href="{{ include.link | relative_url }}" 
+    {% endif %}
+    class="area-image"
+    aria-label="{{ include.title | default: "area link" }}"
+  >
+    <img
+      src="{{ include.image | relative_url }}"
+      loading="lazy"
+      alt="{{ include.title | default: "area image" }}"
+      {% include fallback.html %}
+    >
+  </a>
+  <div class="area-text">
+    {% if include.title %}
+      <p class="area-title">{{ include.title }}</p>
+    {% endif %}
+    {{ include.text | markdownify }}
+  </div>
+</div>
