@@ -34,12 +34,12 @@
 }
 
 @media (max-width: 800px) {
-  .feature {
+  .area {
     flex-direction: column !important;
   }
-  .feature-image {
+  .area-image {
     width: unset;
-    max-width: 400px;
+    height: 180px;
   }
 }
 
