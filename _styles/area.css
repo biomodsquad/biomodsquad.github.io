@@ -9,9 +9,7 @@
 .area-image {
   flex-shrink: 0;
   width: 50%;
-  aspect-ratio: 2/2;
   border-radius: 10%;
-  overflow: hidden;
   box-shadow: var(--shadow);
 }
 
