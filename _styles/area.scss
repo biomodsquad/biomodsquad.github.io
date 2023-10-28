@@ -45,7 +45,6 @@ $thumb-size: 180px;
   }
 
   .area-image {
-    width: unset;
-    height: $thumb-size;
+    width: 100%;
   }
 }
