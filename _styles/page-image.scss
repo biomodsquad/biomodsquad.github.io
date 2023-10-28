@@ -1,3 +1,17 @@
-.research-overview{
+$wrap: 800px;
+
+.page-image{
+  flex-shrink: 0;
   width: 66%;
+}
+.area-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: $wrap) {
+  .page-image {
+    width: 100%;
+  }
 }
