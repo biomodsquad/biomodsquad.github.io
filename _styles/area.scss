@@ -2,6 +2,7 @@
 ---
 
 $wrap: 800px;
+$thumb-size: 180px;
 
 .area {
   display: flex;
@@ -39,12 +40,12 @@ $wrap: 800px;
 }
 
 @media (max-width: $wrap) {
-  .feature {
+  .area {
     flex-direction: column !important;
   }
 
-  .feature-image {
+  .area-image {
     width: unset;
-    max-width: calc($wrap / 2);
+    height: $thumb-size;
   }
 }
