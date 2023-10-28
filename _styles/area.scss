@@ -42,10 +42,10 @@ $thumb-size: 180px;
 @media (max-width: $wrap) {
   .area {
     flex-direction: column !important;
-    width: 100%;
   }
 
   .area-image {
-    max-width: 300px;
+    width: 100%;
+    max-height: 300px;
   }
 }
