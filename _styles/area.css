@@ -38,8 +38,7 @@
     flex-direction: column !important;
   }
   .area-image {
-    width: unset;
-    height: 180px;
+    width: 100%;
   }
 }
 
