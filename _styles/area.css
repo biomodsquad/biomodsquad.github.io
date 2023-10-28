@@ -36,9 +36,10 @@
 @media (max-width: 800px) {
   .area {
     flex-direction: column !important;
+    width: 100%;
   }
   .area-image {
-    width: 100%;
+    max-width: 300px;
   }
 }
 
