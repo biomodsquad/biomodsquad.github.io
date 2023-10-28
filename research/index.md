@@ -27,11 +27,11 @@ nd integrates molecular and systems modeling with machine learning and optimizat
 {%
   include area.html
   image="images/vaccine1.png"
-  link="research"
-  title="Our Research"
+  title="AI-enabled design of personalized vaccines and immunotherapies"
   text=text
 %}
 
+{% include section.html %}
 {% capture text %}
 
 Our research has two main focuses, Data-driven Therapeutic Design and Multi-scale Biomolecular Modeling, a
@@ -42,11 +42,11 @@ nd integrates molecular and systems modeling with machine learning and optimizat
 {%
   include area.html
   image="images/design4.png"
-  link="research"
-  title="Our Research"
+  title="Data-driven design of multi-functional therapeutic peptides"
   text=text
 %}
 
+{% include section.html %}
 {% capture text %}
 
 Our research has two main focuses, Data-driven Therapeutic Design and Multi-scale Biomolecular Modeling, a
@@ -57,7 +57,6 @@ nd integrates molecular and systems modeling with machine learning and optimizat
 {%
   include area.html
   image="images/multiscale4.png"
-  link="research"
-  title="Our Research"
+  title="Multi-scale modeling, simulations, and design of biomolecular self-assembly"
   text=text
 %}
