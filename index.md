@@ -37,7 +37,7 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 
 {% capture text %}
 
-Our published work has been aimed at both developing comptuational tools for machine learning and optimization and application specific models in the areas of Immunology, Cancer Biology, and Computational Drug Design. (Painting by David S. Goodsell) 
+Our published work includes comptuational tool development for machine learning and optimization, as well as, application specific models in the areas of Immunology, Cancer Biology, and Computational Drug Design. (Painting by David S. Goodsell) 
 
 {%
   include button.html
@@ -54,7 +54,7 @@ Our published work has been aimed at both developing comptuational tools for mac
   include feature.html
   image="images/jcvi-syn3a-minimal-cell.jpg"
   link="publications"
-  title="Our Publications"
+  title="Past Work"
   flip=true
   style="bare"
   text=text
@@ -79,7 +79,7 @@ learning and optimization.
   include feature.html
   image="images/proteinGNN.png"
   link="tools"
-  title="Our Tools"
+  title="Tool Development"
   text=text
 %}
 
@@ -100,6 +100,7 @@ Our team is highly collaborative and strives to find creative solutions to chall
 {%
   include feature.html
   image="images/biomodsquad_2_26oct23.jpg"
+  flip=true
   link="team"
   title="Our Team"
   text=text
