@@ -19,7 +19,7 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our current projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -37,13 +37,12 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 
 {% capture text %}
 
-Our projects are often aimed at bridging the molecular and systems scales to gain mesoscale understanding of health and disease. 
-(Painting by David S. Goodsell) 
+Our published work has been aimed at both developing comptuational tools for machine learning and optimization and application specific models in the areas of Immunology, Cancer Biology, and Computational Drug Design. (Painting by David S. Goodsell) 
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="publications"
+  text="Browse our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -54,12 +53,37 @@ Our projects are often aimed at bridging the molecular and systems scales to gai
 {%
   include feature.html
   image="images/jcvi-syn3a-minimal-cell.jpg"
-  link="projects"
-  title="Our Projects"
+  link="publications"
+  title="Our Publications"
   flip=true
   style="bare"
   text=text
 %}
+
+{% capture text %}
+
+We are developing open source tools for research and education at the intersection of molecular/systems modeling, machine 
+learning and optimization.
+{%
+  include button.html
+  link="tools"
+  text="Browse our tools"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/proteinGNN.png"
+  link="tools"
+  title="Our Tools"
+  text=text
+%}
+
+{% include section.html %}
 
 {% capture text %}
 
