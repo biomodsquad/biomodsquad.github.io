@@ -57,6 +57,6 @@ nd integrates molecular and systems modeling with machine learning and optimizat
 {%
   include area.html
   image="images/multiscale4.png"
-  title="Multi-scale modeling, simulations, and design of biomolecular self-assembly"
+  title="Multi-scale modeling, simulations, and design of <br />biomolecular self-assembly"
   text=text
 %}
