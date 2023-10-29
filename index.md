@@ -83,8 +83,6 @@ learning and optimization.
   text=text
 %}
 
-{% include section.html %}
-
 {% capture text %}
 
 Our team is highly collaborative and strives to find creative solutions to challenging problems in therapeutic design.
