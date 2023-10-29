@@ -15,6 +15,9 @@ There is serious concern that the continued increase in drug development costs i
 
 ## Current Projects
 
+Our work is currently funded by an R35 MIRA ESI award from the National Institute for General Medical Sciences at National Institutes of Health 
+and start-up and seed funding from Auburn University. 
+
 {% include section.html %}
 
 {% capture text %}
