@@ -54,7 +54,7 @@ Our published work includes comptuational tool development for machine learning 
   include feature.html
   image="images/jcvi-syn3a-minimal-cell.jpg"
   link="publications"
-  title="Past Work"
+  title="Published Work"
   flip=true
   style="bare"
   text=text
