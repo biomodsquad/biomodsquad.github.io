@@ -52,8 +52,7 @@ The sequential nature of the drug development pipeline and an inability to predi
 {% include section.html %}
 {% capture text %}
 
-Our research has two main focuses, Data-driven Therapeutic Design and Multi-scale Biomolecular Modeling, a
-nd integrates molecular and systems modeling with machine learning and optimization. 
+Biomolecular self-assembly is fundamental to numerous aspects of biology and developing accurate models could advance many fundamental research areas and technologies in medicine. Potential applications include understanding complex structures such as microtubules, viruses, and biomolecular condensates, as well as designing nanomaterials like lipid nanoparticles or virus-like particles. However, self-assembly is an inherently mesoscale phenomena that occurs at disparate length and time scales, posing a significant challenge when computationally efficient models are not readily available. In collaboration with Michael Howard at Auburn University, we are developing a computational framework for building ultra-coarse models of biomolecular interactions that use machine learning to approximate mesoscale interactions based on atomistic simulations.   
 
 {% endcapture %}
 
