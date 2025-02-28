@@ -43,7 +43,7 @@ header a {
   min-width: 0;
   font-family: var(--title);
   text-align: left;
-  font-size: var(--large);
+  font-size: var(--xl);
 }
 
 .nav-toggle {
