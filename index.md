@@ -25,7 +25,7 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 
 {%
   include feature.html
-  image="images/research_areas.jpg"
+  image="images/DALLE_comp_thera_design.webp"
   link="research"
   title="Our Research"
   text=text
