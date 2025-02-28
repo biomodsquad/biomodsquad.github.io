@@ -4,8 +4,9 @@
 
 Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales. To support our therapeutic design research, our work also includes general advancements in machine learning and optimization algorithms. On this site you will find descriptions of current and past projects, along with relevant publications. You will also find details of our efforts to develop computational resources for education, and please feel free to reach out if you have any questions.
 
-<video autoplay muted plays-inline class="welcome-video" style= "width: 100%;">
-  <source src="images/biomodsquad_welcome.mp4" type="video/mp4">
+
+<video autoplay muted plays-inline loop preload="auto" class="welcome-video" style= "width: 100%;">
+  <source src="images/biomodsquad.gif" type="video/gif">
 </video>
 
 {% include section.html %}
