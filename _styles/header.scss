@@ -55,12 +55,13 @@ header a {
   min-width: 0;
   font-family: var(--title);
   text-align: left;
+  font-size: var(--large);
 }
 
 // main title
-.title > *:first-child {
-  font-size: var(--large);
-}
+//.title > *:first-child {
+//  font-size: var(--large);
+//}
 
 // subtitle
 //.title > *:last-child {
