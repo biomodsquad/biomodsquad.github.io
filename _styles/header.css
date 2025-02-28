@@ -131,8 +131,5 @@ header[data-big] .title {
 header[data-big] .title > *:first-child {
   font-size: var(--xxl);
 }
-header[data-big] .title > *:last-child {
-  font-size: var(--large);
-}
 
 /*# sourceMappingURL=header.css.map */
