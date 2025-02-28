@@ -6,6 +6,7 @@ header: images/virus_sketch_bkgrnd.png
 footer: images/virus_sketch_bkgrnd.png
 header-dark: false
 footer-dark: false
+show-subtitle: false
 
 # site social media and other links
 links:
