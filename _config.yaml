@@ -1,6 +1,6 @@
 # site properties and page defaults
 title: Biomolecular Systems Modeling and Design Group
-subtitle: BioModSquad
+subtitle: 
 description: Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.
 header: images/virus_sketch_bkgrnd.png
 footer: images/virus_sketch_bkgrnd.png
