@@ -11,13 +11,13 @@ nav:
   <source src="/images/around_ross_hall.mp4" type="video/mp4">
 </video>
 
-Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department of Chemical Engineering](https://www.eng.auburn.edu/chen/) in the [Samuel Ginn College of Engineering](https://www.eng.auburn.edu/). 
+Our lab is part of [Georgia Institute of Technology](https://www.gatech.edu/) and [Emory University](https://www.emory.edu/)’s [Wallace H. Coulter Department of Biomedical Engineering]([https://www.eng.auburn.edu/chen/](https://bme.gatech.edu/)). 
 
 {%
   include button.html
   type="email"
-  text="kieslich@auburn.edu"
-  link="kieslich@auburn.edu"
+  text="kieslich@gatech.edu"
+  link="kieslich@gatech.edu"
 %}
 {%
   include button.html
@@ -29,23 +29,9 @@ Our lab is part of [Auburn University](https://www.auburn.edu/)’s [Department 
 {% include section.html %}
 
 {% capture col1 %}
-
-{%
-  include figure.html
-  image="images/ross.jpg"
-  caption="Ross Hall"
-%}
-
 {% endcapture %}
 
 {% capture col2 %}
-
-{%
-  include figure.html
-  image="images/atrium.jpg"
-  caption="Ross Hall Atrium"
-%}
-
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
