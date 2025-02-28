@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-<video autoplay muted plays-inline loop>
+<video autoplay muted plays-inline loop style="width: 50%">
   <source src="https://biomodsquad.org/images/biomodsquad.mp4" type="video/mp4">
 </video>
 
