@@ -43,9 +43,6 @@ header a {
   min-width: 0;
   font-family: var(--title);
   text-align: left;
-}
-
-.title > *:first-child {
   font-size: var(--large);
 }
 
