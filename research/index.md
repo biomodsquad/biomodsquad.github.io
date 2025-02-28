@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-<div class ="page-image">
+<div >
   <img src="/images/comp_thera_design.png" alt="BioModSquad Research Overview">
 </div>
   
