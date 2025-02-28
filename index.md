@@ -104,8 +104,4 @@ Our team is highly collaborative and strives to find creative solutions to chall
 
 {% include section.html %}
 
-# Some things in research don't go as planned
-<video autoplay muted plays-inline class="welcome-video" style= "width: 100%;">
-  <source src="images/drone_crash.mp4" type="video/mp4">
-</video>
 
