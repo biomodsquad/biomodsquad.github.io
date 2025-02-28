@@ -6,7 +6,7 @@ Our work focuses on using computer simulations, global optimization, and machine
 
 
 <video autoplay muted plays-inline loop class="welcome-video" style= "width: 100%;">
-  <img src="images/biomodsquad.gif">
+  <source src="images/biomodsquad.mp4" type="video/mp4">
 </video>
 
 {% include section.html %}
