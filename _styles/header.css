@@ -44,7 +44,7 @@ header a {
   font-family: var(--title);
   text-align: left;
   font-size: var(--xxl);
-  font-weight: var(--thin);
+  font-weight: var(--regular);
   color: #083646;
 }
 
