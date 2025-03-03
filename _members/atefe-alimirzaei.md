@@ -1,7 +1,7 @@
 ---
-name: Atefe Alimirzaei
+name: Dr. Atefe Alimirzaei
 image: images/ati.jpg
-role: phd
+role: postdoc
 group: current
 
 links:
