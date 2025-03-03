@@ -2,7 +2,7 @@
 name: Suhyeon Kim
 image: images/ashley.jpg
 role: ms
-group: alum
+group: alumni
 
 links:
   linkedin: ashley-kim-539a27176
