@@ -18,11 +18,11 @@ environment where diverse perspectives and experiences are not only welcomed but
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% include list.html data="members" component="portrait" filters="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filters="role == 'postdoc' && group == 'current'" %}
-{% include list.html data="members" component="portrait" filters="role: phd && group: current" %}
-{% include list.html data="members" component="portrait" filters="role: ms && group: current" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad && group: current" %}
+{% include list.html data="members" component="portrait" filters="role == 'phd' && group == 'current'" %}
+{% include list.html data="members" component="portrait" filters="role == 'ms' && group == 'current'" %}
+{% include list.html data="members" component="portrait" filters="role == 'undergrad' && group == 'current'" %}
 
 {% include section.html%}
 
