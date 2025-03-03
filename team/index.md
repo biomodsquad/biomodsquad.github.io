@@ -31,7 +31,7 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 {% include section.html%}
 
-{% include list.html data="members" component="list" filters="group: alumni" %}
+{% include list.html data="members" filters="group: alumni" %}
 
 {% include section.html %}
 
