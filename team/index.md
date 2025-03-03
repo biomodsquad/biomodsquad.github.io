@@ -29,6 +29,9 @@ environment where diverse perspectives and experiences are not only welcomed but
 Our team is regularly looking for new members to join our group that share our passion for computational 
 therapeutic design, and if interested please reach out to Dr. K about current openings. 
 
+{% include section.html%}
+
+{% include list.html data="members" component="list" filters="group: alumni" %}
 
 {% include section.html %}
 
