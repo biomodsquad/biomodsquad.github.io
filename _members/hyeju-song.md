@@ -1,7 +1,7 @@
 ---
-name: Hyeju Song
+name: Dr. Hyeju Song
 image: images/hyeju.jpg
-role: phd
+role: postdoc
 group: current
 
 links:
