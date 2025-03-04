@@ -4,11 +4,11 @@ image: images/ati.jpg
 role: postdoc
 group: current
 location: Georgia Tech
-
 links:
   linkedin: atefealimirzaei
   google-scholar: mjj9D3kAAAAJ
-  
+aliases: 
+  - Fatemeh Alimirzaei
 ---
 
 Atefe Alimirzaei (Ati) earned her B.S. in Chemical Engineering from Babol Noshirvani University of Technology (Mazandaran, Iran). She also earned 
