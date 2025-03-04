@@ -4,11 +4,11 @@ image: images/hyeju.jpg
 role: postdoc
 group: current
 location: Georgia Tech
-
 links:
   orcid: 0000-0001-7029-0160
   google-scholar: lRk9mMYAAAAJ
-  
+aliases:
+  - Hyeju Song
 ---
 
 Hyeju obtained both her B.S. and M.S. in Chemical and Biological Engineering from Inha University in South Korea. During her master's course, she had 
