@@ -13,7 +13,7 @@
     data-style="{{ include.style }}"
     aria-label="{{ member.name | default: "member link" }}"
   >
-  {% if member.group == "current" %}  
+  i
     <img
       src="{{ member.image | relative_url }}"
       class="portrait-image"
@@ -32,8 +32,10 @@
 
         {% if member.role or member.description %}
           <span class="portrait-role">
+            {% if member.group == "current" %}  
             {% assign type = site.data.types[member.role] %}
             {% include icon.html icon=type.icon %}
+            {% endif %}
             <span>{{ member.description | default: type.description }}</span>
           </span>
         {% endif %}
