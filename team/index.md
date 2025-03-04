@@ -19,8 +19,8 @@ environment where diverse perspectives and experiences are not only welcomed but
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc and group: current" %}
-{% include list.html data="members" component="portrait" filters="role == 'phd' and group == 'current'" %}
+{% include list.html data="members" component="portrait" filters="role: postdoc, group: current" %}
+{% include list.html data="members" component="portrait" filters="role: phd, group: current" %}
 {% include list.html data="members" component="portrait" filters="role == 'ms' and group == 'current'" %}
 {% include list.html data="members" component="portrait" filters="role == 'undergrad' and group == 'current'" %}
 
