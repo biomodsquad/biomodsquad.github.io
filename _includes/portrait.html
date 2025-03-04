@@ -39,6 +39,9 @@
             {% endif %}
           </span>
         {% endif %}
+        {% if member.location %}
+            <span class="portrait-role"> {{ member.location }} </span>
+        {% endif %}
       </span>
     {% endif %}
   </a>
