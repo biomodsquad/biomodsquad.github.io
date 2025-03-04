@@ -32,6 +32,7 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 {% include section.html%}
 
+# {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
 {% include list.html data="members" component="portrait" filters="group: alumni" %}
 
 {% include section.html %}
