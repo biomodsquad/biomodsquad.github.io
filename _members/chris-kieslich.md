@@ -3,6 +3,7 @@ name: Chris Kieslich (Dr. K)
 image: images/drK.jpg
 role: pi
 group: current
+location: Georgia Tech
 aliases:
   - CA Kieslich
   - C.A. Kieslich
