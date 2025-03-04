@@ -3,6 +3,7 @@ name: Dr. Hyeju Song
 image: images/hyeju.jpg
 role: postdoc
 group: current
+location: Georgia Tech
 
 links:
   orcid: 0000-0001-7029-0160
