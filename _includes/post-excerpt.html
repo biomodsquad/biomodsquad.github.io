@@ -7,6 +7,21 @@
 <div class="post-excerpt">
   {% assign url = post.url %}
   {% assign title = post.title %}
+  
+  {% if post.image %}
+    <a
+      href="{{ url | relative_url }}"
+      class="citation-image"
+    >
+      <img
+        src="{{ post.image | relative_url }}"
+        alt="{{ post.title | default: "citation image" }}"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    </a>
+  {% endif %}
+  
   <a href="{{ url | relative_url }}">{{ title }}</a>
 
   {%
