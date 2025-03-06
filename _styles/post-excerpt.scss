@@ -1,6 +1,23 @@
 ---
 ---
 
+$thumb-size: 180px;
+
+.post-image {
+  position: relative;
+  width: $thumb-size;
+  flex-shrink: 0;
+  // box-shadow: var(--shadow);
+}
+
+.post-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .post-excerpt {
   display: flex;
   flex-wrap: wrap;
