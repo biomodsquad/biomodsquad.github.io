@@ -1,11 +1,23 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1063/5.0302659
+  title: Inverse design of drying-induced assembly of multicomponent colloidal-particle
+    films using surrogate models
+  authors:
+  - Mayukh Kundu
+  - Michaela Bush
+  - Chris A. Kieslich
+  - Michael P. Howard
+  publisher: The Journal of Chemical Physics
+  date: '2025-12-10'
+  link: https://doi.org/hbhv7h
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/b978-0-443-15274-0.50429-7
   title: Data-driven prediction of peptide-MHC binding using oscillations of physicochemical
     properties
-  authors:
-  - Hyeju Song
-  - Chris A. Kieslich
+  authors: []
   publisher: Computer Aided Chemical Engineering
   date: '2023-01-01'
   link: https://doi.org/gsrr77
@@ -14,9 +26,7 @@
   file: sources.yaml
 - id: doi:10.1016/b978-0-443-15274-0.50428-5
   title: Machine learning models for predicting membranolytic anticancer peptides
-  authors:
-  - Fatemeh Alimirzaei
-  - Chris A. Kieslich
+  authors: []
   publisher: Computer Aided Chemical Engineering
   date: '2023-01-01'
   link: https://doi.org/gsrr78
@@ -26,12 +36,7 @@
 - id: doi:10.1016/B978-0-323-88506-5.50312-0
   title: Data-driven prediction of antiviral peptides based on periodicities of amino
     acid properties
-  authors:
-  - Chris A. Kieslich
-  - Fatemeh Alimirzaei
-  - Hyeju Song
-  - Matthew Do
-  - Paige Hall
+  authors: []
   publisher: Computer Aided Chemical Engineering
   date: '2021-01-01'
   link: https://doi.org/gsrr79
@@ -720,7 +725,7 @@
     \ the Complement Inhibitor of Kaposi\u2019s Sarcoma-Associated Herpesvirus"
   authors:
   - Kalyani Pyaram
-  - Chris A. Kieslich
+  - Chris A Kieslich
   - Viveka Nand Yadav
   - Dimitrios Morikis
   - Arvind Sahu
