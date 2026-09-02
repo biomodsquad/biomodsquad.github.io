@@ -12,7 +12,7 @@
     for (const row of rows) {
       // get props from tag row
       const repo = row.dataset.repo.trim();
-      const link = row.dataset.link.trim();
+      const link = row.dataset.link?.trim() || window.location.pathname;
 
       // get tags from github
       if (!repo) continue;

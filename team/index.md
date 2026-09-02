@@ -13,16 +13,16 @@ biomolecular modeling, machine learning, and global optimization. Accordingly, w
 environment where diverse perspectives and experiences are not only welcomed but sought after.
 
 <div class ="page-image">
-  <img src="/images/biomodsquad_26oct23.jpg" alt="BioModSquad group photo">
+  <img src="{{ "images/biomodsquad_26oct23.jpg" | relative_url }}" alt="BioModSquad group photo">
 </div>
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: postdoc, group: current" %}
-{% include list.html data="members" component="portrait" filters="role: phd, group: current" %}
-{% include list.html data="members" component="portrait" filters="role: ms, group: current" %}
-{% include list.html data="members" component="portrait" filters="role: undergrad, group: current" %}
+{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc' and group == 'current'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd' and group == 'current'" %}
+{% include list.html data="members" component="portrait" filter="role == 'ms' and group == 'current'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad' and group == 'current'" %}
 
 
 {% include section.html%}
@@ -33,7 +33,7 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 {% include section.html%}
 
 # {% include icon.html icon="fa-solid fa-graduation-cap" %}Alumni
-{% include list.html data="members" component="portrait" filters="group: alumni" %}
+{% include list.html data="members" component="portrait" filter="group == 'alumni'" %}
 
 {% include section.html %}
 

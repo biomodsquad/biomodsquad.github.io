@@ -1,47 +1,55 @@
-{% assign member = site.members 
-  | where_exp: "member", "member.slug == include.lookup"
-  | first
-  | default: include
-%}
+{% if include.lookup %}
+  {% assign member = site.members 
+    | where_exp: "member", "member.slug == include.lookup"
+    | first
+  %}
+{% else %}
+  {% assign member = include %}
+{% endif %}
+
+{% assign type = site.data.types[member.role] %}
+{% assign affiliation = member.affiliation | default: member.location %}
 
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
+      href="{{ member.url | relative_url | uri_escape }}"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
+    aria-label="{{ member.name | default: "member link" | regex_strip }}"
   >
-  {% if member.group == "current" %}  
-    <img
-      src="{{ member.image | relative_url }}"
-      class="portrait-image"
-      alt="member portrait"
-      loading="lazy"
-      {% include fallback.html %}
-    >
-  {% endif %}
-    {% if member.name or member.role or member.description %}
-      <span class="portrait-text">
-        {% if member.name %}
-          <span class="portrait-name">
-            {{ member.name }}
-          </span>
-        {% endif %}
+    {% if type and member.group == "current" %}
+      {% include icon.html icon=type.icon %}
+    {% endif %}
 
-        {% if member.role or member.description %}
-          <span class="portrait-role">
-            {% if member.group == "current" %}  
-            {% assign type = site.data.types[member.role] %}
-            {% include icon.html icon=type.icon %}
-            <span>{{ member.description | default: type.description }}</span>
-            {% endif %}
-          </span>
-        {% endif %}
-        {% if member.location %}
-            <span class="portrait-role"> {{ member.location }} </span>
-        {% endif %}
+    {% if member.group == "current" %}
+      <img
+        src="{{ member.image | relative_url | uri_escape }}"
+        class="portrait-image"
+        alt="member portrait"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    {% endif %}
+
+    {% if member.name %}
+      <span class="portrait-name">
+        {{ member.name }}
+      </span>
+    {% endif %}
+
+    {% if member.group == "current" %}
+      {% if member.description or type %}
+        <span class="portrait-description">
+          {{ member.description | default: type.description }}
+        </span>
+      {% endif %}
+    {% endif %}
+
+    {% if affiliation %}
+      <span class="portrait-affiliation">
+        {{ affiliation }}
       </span>
     {% endif %}
   </a>

@@ -7,6 +7,7 @@ footer: images/virus_sketch_bkgrnd.png
 header-dark: false
 footer-dark: false
 show-subtitle: false
+proofer: false
 
 # site social media and other links
 links:
@@ -72,3 +73,9 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+
+# configure jekyll spaceship
+jekyll-spaceship:
+  mathjax-processor:
+    src:
+      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
