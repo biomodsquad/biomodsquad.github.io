@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Tools | Biomolecular Systems Modeling and Design Group</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="Tools">
 <meta property="og:site_title" content="Biomolecular Systems Modeling and Design Group">
 <meta property="og:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://biomodsquad.org">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Tools">
 <meta property="twitter:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://biomodsquad.org">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://biomodsquad.org"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://biomodsquad.org/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -160,6 +164,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -340,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +372,8 @@
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
 
@@ -393,9 +405,9 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Biomolecular Systems Modeling and Design Group</span>
+          <span class="title">Biomolecular Systems Modeling and Design Group</span>
         
         
       </span>
@@ -451,11 +463,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -473,6 +482,22 @@
 <p>We are developing open source tools for research and education at the intersection of molecular/systems modeling, machine learning
 and optimization. These tools include foundational resources that enable therapeutic design and application specific models.</p>
 
+<div class="tags">
+    
+      <a href="/tools/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
+        publication
+      </a>
+    
+      <a href="/tools/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
+        resource
+      </a>
+    
+      <a href="/tools/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
+        website
+      </a>
+    
+  </div>
+
 <div class="search-info"></div>
   </section>
 
@@ -482,9 +507,9 @@ and optimization. These tools include foundational resources that enable therape
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="research">Research</h2>
@@ -506,15 +531,17 @@ and optimization. These tools include foundational resources that enable therape
     
 
     
-      <p>Python package for developing and analyzing machine learned models of protein function and properties that leverage periodicities in physicochemical properties along protein sequences.</p>
+      <p>
+        Python package for developing and analyzing machine learned models of protein function and properties that leverage periodicities in physicochemical properties along protein sequences.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-link="/tools/">
+  <div class="tags">
     
       <a href="/tools/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
         software
@@ -544,15 +571,17 @@ and optimization. These tools include foundational resources that enable therape
     
 
     
-      <p>Provides basic tools for manipulating PDB files, including visualization through dash.bio, and a framework for developing graph neural networks based on protein structural data.</p>
+      <p>
+        Provides basic tools for manipulating PDB files, including visualization through dash.bio, and a framework for developing graph neural networks based on protein structural data.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-link="/tools/">
+  <div class="tags">
     
       <a href="/tools/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
         software
@@ -582,15 +611,17 @@ and optimization. These tools include foundational resources that enable therape
     
 
     
-      <p>Work in collaboration with Mike Howard (Auburn University) aimed at developing tools for multi-scale modeling based on Smolyak sparse grids.</p>
+      <p>
+        Work in collaboration with Mike Howard (Auburn University) aimed at developing tools for multi-scale modeling based on Smolyak sparse grids.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="biomodsquad/smolyak-surrogate-modeling" data-link="/tools/">
+  <div class="tags" data-repo="biomodsquad/smolyak-surrogate-modeling">
     
       <a href="/tools/?search=%22tag:%20software%22" class="tag" data-tooltip='Show items with the tag "software"'>
         software
@@ -610,9 +641,9 @@ and optimization. These tools include foundational resources that enable therape
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="education">Education</h2>
@@ -634,15 +665,17 @@ and optimization. These tools include foundational resources that enable therape
     
 
     
-      <p>These resources include interactive modules that are generally applicable to learning the basics of systems biology modeling, as well as, coding examples for using R to develop and analyze various types of systems biology models.</p>
+      <p>
+        These resources include interactive modules that are generally applicable to learning the basics of systems biology modeling, as well as, coding examples for using R to develop and analyze various types of systems biology models.
 
+      </p>
     
 
     
       
 
 
-  <div class="tags" data-repo="cakieslich/introCSB" data-link="/tools/">
+  <div class="tags" data-repo="cakieslich/introCSB">
     
       <a href="/tools/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
         resource

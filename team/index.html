@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Team | Biomolecular Systems Modeling and Design Group</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="Team">
 <meta property="og:site_title" content="Biomolecular Systems Modeling and Design Group">
 <meta property="og:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://biomodsquad.org">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Team">
 <meta property="twitter:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://biomodsquad.org">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://biomodsquad.org"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://biomodsquad.org/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -160,6 +164,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -340,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +372,8 @@
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
 
@@ -393,9 +405,9 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Biomolecular Systems Modeling and Design Group</span>
+          <span class="title">Biomolecular Systems Modeling and Design Group</span>
         
         
       </span>
@@ -451,11 +463,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -486,35 +495,29 @@ environment where diverse perspectives and experiences are not only welcomed but
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="portrait-wrapper">
-  <a href="/members/chris-kieslich.html" class="portrait" data-style="" aria-label="Chris Kieslich (Dr. K)">
+  <a href="/members/chris-kieslich.html" class="portrait" data-style="" aria-label="Chris Kieslich Dr. K">
     
-    <img src="/images/drK.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Chris Kieslich (Dr. K)
-          </span>
-        
 
-        
-          <span class="portrait-role">
-              
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Principal Investigator</span>
-            
-          </span>
-        
-        
+    
+      <img src="/images/drK.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+
+    
+      <span class="portrait-name">
+        Chris Kieslich (Dr. K)
       </span>
+    
+
+    
+      
+    
+
     
   </a>
 </div>
@@ -522,28 +525,30 @@ environment where diverse perspectives and experiences are not only welcomed but
 <div class="portrait-wrapper">
   <a href="/members/atefe-alimirzaei.html" class="portrait" data-style="" aria-label="Dr. Atefe Alimirzaei">
     
-    <img src="/images/ati.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  
+      <i class="icon fa-solid fa-glasses"></i>
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Dr. Atefe Alimirzaei
-          </span>
-        
 
-        
-          <span class="portrait-role">
-              
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Postdoctoral Researcher</span>
-            
-          </span>
-        
-        
-            <span class="portrait-role"> Georgia Tech </span>
-        
+    
+      <img src="/images/ati.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+
+    
+      <span class="portrait-name">
+        Dr. Atefe Alimirzaei
+      </span>
+    
+
+    
+      
+        <span class="portrait-description">
+          Postdoctoral Researcher
+        </span>
+      
+    
+
+    
+      <span class="portrait-affiliation">
+        Georgia Tech
       </span>
     
   </a>
@@ -552,28 +557,30 @@ environment where diverse perspectives and experiences are not only welcomed but
 <div class="portrait-wrapper">
   <a href="/members/hyeju-song.html" class="portrait" data-style="" aria-label="Dr. Hyeju Song">
     
-    <img src="/images/hyeju.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  
+      <i class="icon fa-solid fa-glasses"></i>
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Dr. Hyeju Song
-          </span>
-        
 
-        
-          <span class="portrait-role">
-              
-            
-            <i class="icon fa-solid fa-glasses"></i>
-            <span>Postdoctoral Researcher</span>
-            
-          </span>
-        
-        
-            <span class="portrait-role"> Georgia Tech </span>
-        
+    
+      <img src="/images/hyeju.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+
+    
+      <span class="portrait-name">
+        Dr. Hyeju Song
+      </span>
+    
+
+    
+      
+        <span class="portrait-description">
+          Postdoctoral Researcher
+        </span>
+      
+    
+
+    
+      <span class="portrait-affiliation">
+        Georgia Tech
       </span>
     
   </a>
@@ -582,28 +589,30 @@ environment where diverse perspectives and experiences are not only welcomed but
 <div class="portrait-wrapper">
   <a href="/members/michaela-bush.html" class="portrait" data-style="" aria-label="Michaela Bush">
     
-    <img src="/images/michaela.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  
+      <i class="icon fa-solid fa-code"></i>
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Michaela Bush
-          </span>
-        
 
-        
-          <span class="portrait-role">
-              
-            
-            <i class="icon fa-solid fa-code"></i>
-            <span>PhD Student</span>
-            
-          </span>
-        
-        
-            <span class="portrait-role"> Auburn University </span>
-        
+    
+      <img src="/images/michaela.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    
+
+    
+      <span class="portrait-name">
+        Michaela Bush
+      </span>
+    
+
+    
+      
+        <span class="portrait-description">
+          PhD Student
+        </span>
+      
+    
+
+    
+      <span class="portrait-affiliation">
+        Auburn University
       </span>
     
   </a>
@@ -616,9 +625,9 @@ environment where diverse perspectives and experiences are not only welcomed but
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <p>Our team is regularly looking for new members to join our group that share our passion for computational 
@@ -631,9 +640,9 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h1 id="alumni">
@@ -641,67 +650,57 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 <div class="portrait-wrapper">
   <a href="/members/ashraf-ali.html" class="portrait" data-style="" aria-label="Dr. Ashraf Ali">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Dr. Ashraf Ali
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        Dr. Ashraf Ali
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/cameron-mcmahan.html" class="portrait" data-style="" aria-label="Cameron McMahan">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Cameron McMahan
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        Cameron McMahan
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/jazmine-torres.html" class="portrait" data-style="" aria-label="Jazmine Torres">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jazmine Torres
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
-            <span class="portrait-role"> Auburn University </span>
-        
+    
+
+    
+      <span class="portrait-name">
+        Jazmine Torres
+      </span>
+    
+
+    
+
+    
+      <span class="portrait-affiliation">
+        Auburn University
       </span>
     
   </a>
@@ -709,23 +708,21 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 <div class="portrait-wrapper">
   <a href="/members/mohammadreza-fakhraei.html" class="portrait" data-style="" aria-label="Mohammadreza Fakhraei">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Mohammadreza Fakhraei
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
-            <span class="portrait-role"> Auburn University </span>
-        
+    
+
+    
+      <span class="portrait-name">
+        Mohammadreza Fakhraei
+      </span>
+    
+
+    
+
+    
+      <span class="portrait-affiliation">
+        Auburn University
       </span>
     
   </a>
@@ -733,88 +730,72 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 <div class="portrait-wrapper">
   <a href="/members/molly-smith.html" class="portrait" data-style="" aria-label="Molly Smith">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Molly Smith
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        Molly Smith
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/suhyeon-kim.html" class="portrait" data-style="" aria-label="Suhyeon Kim">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Suhyeon Kim
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        Suhyeon Kim
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/sumaiya-islam.html" class="portrait" data-style="" aria-label="Dr. Sumaiya Islam">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Dr. Sumaiya Islam
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        Dr. Sumaiya Islam
       </span>
+    
+
+    
+
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
   <a href="/members/william-defreese.html" class="portrait" data-style="" aria-label="William Defreese">
-  
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            William Defreese
-          </span>
-        
 
-        
-          <span class="portrait-role">
-            
-          </span>
-        
-        
+    
+
+    
+      <span class="portrait-name">
+        William Defreese
       </span>
+    
+
+    
+
     
   </a>
 </div>
@@ -826,9 +807,9 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <div class="grid" data-style="square">

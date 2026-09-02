@@ -37,6 +37,10 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Publications | Biomolecular Systems Modeling and Design Group</title>
@@ -49,13 +53,13 @@
 <meta property="og:title" content="Publications">
 <meta property="og:site_title" content="Biomolecular Systems Modeling and Design Group">
 <meta property="og:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://biomodsquad.org">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Publications">
 <meta property="twitter:description" content="BioModSquad. Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales.">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://biomodsquad.org">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,11 +80,11 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://biomodsquad.org"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://biomodsquad.org/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
@@ -90,9 +94,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -160,6 +164,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -340,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -362,6 +372,8 @@
   <script src="/_scripts/search.js"></script>
 
   <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
 
   <script src="/_scripts/tooltip.js"></script>
 
@@ -393,9 +405,9 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Biomolecular Systems Modeling and Design Group</span>
+          <span class="title">Biomolecular Systems Modeling and Design Group</span>
         
         
       </span>
@@ -451,11 +463,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -479,121 +488,130 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="highlighted">Highlighted</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsrr8c" class="citation-image" aria-label="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks">
-      <img src="https://www.pnas.org/cms/10.1073/pnas.1912207117/asset/85a1d0f5-ddfa-41fa-84ac-bccece43d755/assets/graphic/pnas.1912207117fig05.jpeg" alt="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsrr8c" class="citation-image" aria-label="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks">
+        <img src="" alt="Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsrr8c" class="citation-title">
-      Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Meghan C. Ferrall-Fairbanks, Chris A. Kieslich, Manu O. Platt
+      <a href="https://doi.org/gsrr8c" class="citation-title">
+        Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Meghan C. Ferrall-Fairbanks, Chris A. Kieslich, Manu O. Platt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the National Academy of Sciences</span>
+         · 
+        <span class="citation-date">24 Jan 2020</span>
+         · 
+        <span class="citation-id">doi:10.1073/PNAS.1912207117</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      24 Jan 2020
-        ·  
-      doi:10.1073/pnas.1912207117
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gdtv5n" class="citation-image" aria-label="An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12">
-      <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-018-26812-8/MediaObjects/41598_2018_26812_Fig5_HTML.jpg" alt="An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gdtv5n" class="citation-image" aria-label="An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12">
+        <img src="" alt="An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gdtv5n" class="citation-title">
-      An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, Debswapna Bhattacharya, Lauren Blake, Leandro Oliveira Bortot, Renzhi Cao, B. K. Dhanasekaran, Itzhel Dimas, Rodrigo Antonio Faccioli, Eshel Faraggi, Robert Ganzynkowicz, Sambit Ghosh, Soma Ghosh, Artur Giełdoń, Lukasz Golon, Yi He, Lim Heo, Jie Hou, Main Khan, Firas Khatib, George A. Khoury, Chris Kieslich, David E. Kim, Pawel Krupa, Gyu Rie Lee, Hongbo Li, Jilong Li, Agnieszka Lipska, Adam Liwo, Ali Hassan A. Maghrabi, Milot Mirdita, Shokoufeh Mirzaei, Magdalena A. Mozolewska, Melis Onel, Sergey Ovchinnikov, Anand Shah, Utkarsh Shah, Tomer Sidi, Adam K. Sieradzan, Magdalena Ślusarz, Rafal Ślusarz, James Smadbeck, Phanourios Tamamis, Nicholas Trieber, Tomasz Wirecki, Yanping Yin, Yang Zhang, Jaume Bacardit, Maciej Baranowski, Nicholas Chapman, Seth Cooper, Alexandre Defelicibus, Jeff Flatten, Brian Koepnick, Zoran Popović, Bartlomiej Zaborowski, David Baker, Jianlin Cheng, Cezary Czaplewski, Alexandre Cláudio Botazzo Delbem, Christodoulos Floudas, Andrzej Kloczkowski, Stanislaw Ołdziej, Michael Levitt, Harold Scheraga, Chaok Seok, Johannes Söding, Saraswathi Vishveshwara, Dong Xu, Ahmet Caglar, Alan Coral, Alison MacMillan, Allen Lubow, Barbara Failer, Bruno Kestemont, Catherine R. Landers, Charles Robert Painter, Christophe Garnier, Claudine Sellin, Dietmar Janz, Douglas Craig Wheeler, Vera Simon, Dylan M. Flear, Emmanuel Croze, George Victor McIlvaine, Gil Beecher, Gordon Lawrie, Guy Ykman, Harald Feldmann, Heidemarie K. Fuentes, Hosokawa Terumasa, Istvan Kovanecz, James Absalom Longino, Jan Hendrik Nijland, Jasper A. Diderich, Jeffrey M. Canfield, Jesper Eriksson, Jesse David Slone, Joan Goldsworthy Appel, Joanne Mitchell, John Mitch, Jorn Loots-Boiy, June M. Brownlee, Karsten Wilson, Keith T. Clayton, Kenneth E. DeFord, Kirk J. Abbey, Larry Withers, Linda Wei, Lloyd Ives, Lori A. Miller, Lynn Carpenter, Manasa G. Sharma, Manuel Ricci, Mark Stewart Binfield, Matthew John Davids, Matthias Gaebel, Michael D. Cassidy, Michael Fagiola, Michael Pfützenreuter, Nova Barlow, Peter John Triggiani, Renton Braden Mathew Innes, Robert Leduc, Rodrigo Luccas Corrêa dos Santos Gomes, Rosemarie L. R. Morneau, Scott J. Zaccanelli, Susan C. Kleinfelter, T. J. A. van der Laan, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli " tabindex="0">
-      Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, ..., Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli
+      <a href="https://doi.org/gdtv5n" class="citation-title">
+        An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12
+      </a>
+
+      <div class="citation-authors" data-tooltip="Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, Debswapna Bhattacharya, Lauren Blake, Leandro Oliveira Bortot, Renzhi Cao, B. K. Dhanasekaran, Itzhel Dimas, Rodrigo Antonio Faccioli, Eshel Faraggi, Robert Ganzynkowicz, Sambit Ghosh, Soma Ghosh, Artur Giełdoń, Lukasz Golon, Yi He, Lim Heo, Jie Hou, Main Khan, Firas Khatib, George A. Khoury, Chris Kieslich, David E. Kim, Pawel Krupa, Gyu Rie Lee, Hongbo Li, Jilong Li, Agnieszka Lipska, Adam Liwo, Ali Hassan A. Maghrabi, Milot Mirdita, Shokoufeh Mirzaei, Magdalena A. Mozolewska, Melis Onel, Sergey Ovchinnikov, Anand Shah, Utkarsh Shah, Tomer Sidi, Adam K. Sieradzan, Magdalena Ślusarz, Rafal Ślusarz, James Smadbeck, Phanourios Tamamis, Nicholas Trieber, Tomasz Wirecki, Yanping Yin, Yang Zhang, Jaume Bacardit, Maciej Baranowski, Nicholas Chapman, Seth Cooper, Alexandre Defelicibus, Jeff Flatten, Brian Koepnick, Zoran Popović, Bartlomiej Zaborowski, David Baker, Jianlin Cheng, Cezary Czaplewski, Alexandre Cláudio Botazzo Delbem, Christodoulos Floudas, Andrzej Kloczkowski, Stanislaw Ołdziej, Michael Levitt, Harold Scheraga, Chaok Seok, Johannes Söding, Saraswathi Vishveshwara, Dong Xu, Ahmet Caglar, Alan Coral, Alison MacMillan, Allen Lubow, Barbara Failer, Bruno Kestemont, Catherine R. Landers, Charles Robert Painter, Christophe Garnier, Claudine Sellin, Dietmar Janz, Douglas Craig Wheeler, Vera Simon, Dylan M. Flear, Emmanuel Croze, George Victor McIlvaine, Gil Beecher, Gordon Lawrie, Guy Ykman, Harald Feldmann, Heidemarie K. Fuentes, Hosokawa Terumasa, Istvan Kovanecz, James Absalom Longino, Jan Hendrik Nijland, Jasper A. Diderich, Jeffrey M. Canfield, Jesper Eriksson, Jesse David Slone, Joan Goldsworthy Appel, Joanne Mitchell, John Mitch, Jorn Loots-Boiy, June M. Brownlee, Karsten Wilson, Keith T. Clayton, Kenneth E. DeFord, Kirk J. Abbey, Larry Withers, Linda Wei, Lloyd Ives, Lori A. Miller, Lynn Carpenter, Manasa G. Sharma, Manuel Ricci, Mark Stewart Binfield, Matthew John Davids, Matthias Gaebel, Michael D. Cassidy, Michael Fagiola, Michael Pfützenreuter, Nova Barlow, Peter John Triggiani, Renton Braden Mathew Innes, Robert Leduc, Rodrigo Luccas Corrêa dos Santos Gomes, Rosemarie L. R. Morneau, Scott J. Zaccanelli, Susan C. Kleinfelter, T. J. A. van der Laan, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli" tabindex="0">
+        Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, …, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Reports</span>
+         · 
+        <span class="citation-date">02 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1038/S41598-018-26812-8</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Scientific Reports
-        ·  
-      02 Jul 2018
-        ·  
-      doi:10.1038/s41598-018-26812-8
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gsrr8h" class="citation-image" aria-label="Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism">
-      <img src="/images/crush.png" alt="Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gsrr8h" class="citation-image" aria-label="Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism">
+        <img src="" alt="Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gsrr8h" class="citation-title">
-      Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Phanourios Tamamis, Yannis A. Guzman, Melis Onel, Christodoulos A. Floudas
+      <a href="https://doi.org/gsrr8h" class="citation-title">
+        Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Phanourios Tamamis, Yannis A. Guzman, Melis Onel, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS ONE</span>
+         · 
+        <span class="citation-date">09 Feb 2016</span>
+         · 
+        <span class="citation-id">doi:10.1371/JOURNAL.PONE.0148974</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      PLOS ONE
-        ·  
-      09 Feb 2016
-        ·  
-      doi:10.1371/journal.pone.0148974
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>
@@ -604,9 +622,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="all">All</h2>
@@ -620,1192 +638,2894 @@
 
 <div class="search-info"></div>
 
+<h3 id="2026">2026</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hb2vxf" class="citation-title">
+        Approximation of forces and torques from anisotropic pairwise interactions using multivariate polynomials
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mohammadreza Fakhraei, Michaela Bush, Chris A. Kieslich, Michael P. Howard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Chemical Physics</span>
+         · 
+        <span class="citation-date">09 Apr 2026</span>
+         · 
+        <span class="citation-id">doi:10.1063/5.0318270</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
 <h3 id="2025">2025</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/hbhv7h" class="citation-title">
-      Inverse design of drying-induced assembly of multicomponent colloidal-particle films using surrogate models
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Mayukh Kundu, Michaela Bush, Chris A. Kieslich, Michael P. Howard
+      <a href="https://doi.org/hbhv7h" class="citation-title">
+        Inverse design of drying-induced assembly of multicomponent colloidal-particle films using surrogate models
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mayukh Kundu, Michaela Bush, Chris A. Kieslich, Michael P. Howard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Chemical Physics</span>
+         · 
+        <span class="citation-date">10 Dec 2025</span>
+         · 
+        <span class="citation-id">doi:10.1063/5.0302659</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      The Journal of Chemical Physics
-        ·  
-      10 Dec 2025
-        ·  
-      doi:10.1063/5.0302659
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hchhqd" class="citation-title">
+        A Paired Database of Predicted and Experimental Protein Peptide Binding Information
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jazmine A. Torres, Chris A. Kieslich, Robert J. Pantazes
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Data</span>
+         · 
+        <span class="citation-date">20 Aug 2025</span>
+         · 
+        <span class="citation-id">doi:10.1038/S41597-025-05754-7</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/g9tpzc" class="citation-title">
+        Approximation of Anisotropic Pair Potentials Using Multivariate Interpolation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Mohammadreza Fakhraei, Chris A. Kieslich, Michael P. Howard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Physical Chemistry B</span>
+         · 
+        <span class="citation-date">27 Jun 2025</span>
+         · 
+        <span class="citation-id">doi:10.1021/ACS.JPCB.5C01451</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr78" class="citation-title">
-      Machine learning models for predicting membranolytic anticancer peptides
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="https://doi.org/gsqm4r" class="citation-title">
+        Surrogate Modeling of the Relative Entropy for Inverse Design Using Smolyak Sparse Grids
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        C. Levi Petix, Mohammadreza Fakhraei, Chris A. Kieslich, Michael P. Howard
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Theory and Computation</span>
+         · 
+        <span class="citation-date">13 Sep 2023</span>
+         · 
+        <span class="citation-id">doi:10.1021/ACS.JCTC.3C00651</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Computer Aided Chemical Engineering
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/b978-0-443-15274-0.50428-5
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr77" class="citation-title">
-      Data-driven prediction of peptide-MHC binding using oscillations of physicochemical properties
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="https://doi.org/gsrr78" class="citation-title">
+        Machine learning models for predicting membranolytic anticancer peptides
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computer Aided Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1016/b978-0-443-15274-0.50428-5</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Computer Aided Chemical Engineering
-        ·  
-      01 Jan 2023
-        ·  
-      doi:10.1016/b978-0-443-15274-0.50429-7
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr77" class="citation-title">
+        Data-driven prediction of peptide-MHC binding using oscillations of physicochemical properties
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computer Aided Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1016/b978-0-443-15274-0.50429-7</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2021">2021</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8b" class="citation-title">
-      Role of Electrostatic Hotspots in the Selectivity of Complement Control Proteins Toward Human and Bovine Complement Inhibition
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, Reed E. S. Harrison, Pablo R. Arantes, Zied Gaieb, Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo " tabindex="0">
-      Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, ..., Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo
+      <a href="https://doi.org/gsrr8b" class="citation-title">
+        Role of Electrostatic Hotspots in the Selectivity of Complement Control Proteins Toward Human and Bovine Complement Inhibition
+      </a>
+
+      <div class="citation-authors" data-tooltip="Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, Reed E. S. Harrison, Pablo R. Arantes, Zied Gaieb, Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo" tabindex="0">
+        Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, …, Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Frontiers in Molecular Biosciences</span>
+         · 
+        <span class="citation-date">16 Mar 2021</span>
+         · 
+        <span class="citation-id">doi:10.3389/fmolb.2021.618068</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Frontiers in Molecular Biosciences
-        ·  
-      16 Mar 2021
-        ·  
-      doi:10.3389/fmolb.2021.618068
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr79" class="citation-title">
-      Data-driven prediction of antiviral peptides based on periodicities of amino acid properties
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="https://doi.org/gsrr8b" class="citation-title">
+        Role of Electrostatic Hotspots in the Selectivity of Complement Control Proteins Toward Human and Bovine Complement Inhibition
+      </a>
+
+      <div class="citation-authors" data-tooltip="Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, Reed E. S. Harrison, Pablo R. Arantes, Zied Gaieb, Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo" tabindex="0">
+        Yogesh B. Narkhede, Avneesh K. Gautam, Rohaine V. Hsu, Wilson Rodriguez, Nehemiah T. Zewde, …, Ronald D. Gorham, Chris Kieslich, Dimitrios Morikis, Arvind Sahu, Giulia Palermo
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Frontiers in Molecular Biosciences</span>
+         · 
+        <span class="citation-date">16 Mar 2021</span>
+         · 
+        <span class="citation-id">doi:10.3389/FMOLB.2021.618068</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Computer Aided Chemical Engineering
-        ·  
-      01 Jan 2021
-        ·  
-      doi:10.1016/B978-0-323-88506-5.50312-0
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr79" class="citation-title">
+        Data-driven prediction of antiviral peptides based on periodicities of amino acid properties
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computer Aided Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jan 2021</span>
+         · 
+        <span class="citation-id">doi:10.1016/B978-0-323-88506-5.50312-0</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8c" class="citation-title">
-      Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Meghan C. Ferrall-Fairbanks, Chris A. Kieslich, Manu O. Platt
+      <a href="https://doi.org/gsrr8c" class="citation-title">
+        Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Meghan C. Ferrall-Fairbanks, Chris A. Kieslich, Manu O. Platt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the National Academy of Sciences</span>
+         · 
+        <span class="citation-date">24 Jan 2020</span>
+         · 
+        <span class="citation-id">doi:10.1073/pnas.1912207117</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Proceedings of the National Academy of Sciences
-        ·  
-      24 Jan 2020
-        ·  
-      doi:10.1073/pnas.1912207117
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8c" class="citation-title">
+        Reassessing enzyme kinetics: Considering protease-as-substrate interactions in proteolytic networks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Meghan C. Ferrall-Fairbanks, Chris A. Kieslich, Manu O. Platt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proceedings of the National Academy of Sciences</span>
+         · 
+        <span class="citation-date">24 Jan 2020</span>
+         · 
+        <span class="citation-id">doi:10.1073/PNAS.1912207117</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8d" class="citation-title">
-      Dynamic Model of Protease State and Inhibitor Trafficking to Predict Protease Activity in Breast Cancer Cells
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      W. Andrew Shockey, Christopher A. Kieslich, Catera L. Wilder, Valencia Watson, Manu O. Platt
+      <a href="https://doi.org/gsrr8d" class="citation-title">
+        Dynamic Model of Protease State and Inhibitor Trafficking to Predict Protease Activity in Breast Cancer Cells
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        W. Andrew Shockey, Christopher A. Kieslich, Catera L. Wilder, Valencia Watson, Manu O. Platt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cellular and Molecular Bioengineering</span>
+         · 
+        <span class="citation-date">19 Jun 2019</span>
+         · 
+        <span class="citation-id">doi:10.1007/s12195-019-00580-5</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Cellular and Molecular Bioengineering
-        ·  
-      19 Jun 2019
-        ·  
-      doi:10.1007/s12195-019-00580-5
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/grwqwv" class="citation-title">
-      A nonlinear support vector machine‐based feature selection approach for fault detection and diagnosis: Application to the Tennessee Eastman process
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Melis Onel, Chris A. Kieslich, Efstratios N. Pistikopoulos
+      <a href="https://doi.org/gsrr8d" class="citation-title">
+        Dynamic Model of Protease State and Inhibitor Trafficking to Predict Protease Activity in Breast Cancer Cells
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        W. Andrew Shockey, Christopher A. Kieslich, Catera L. Wilder, Valencia Watson, Manu O. Platt
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cellular and Molecular Bioengineering</span>
+         · 
+        <span class="citation-date">19 Jun 2019</span>
+         · 
+        <span class="citation-id">doi:10.1007/S12195-019-00580-5</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      AIChE Journal
-        ·  
-      02 Jan 2019
-        ·  
-      doi:10.1002/aic.16497
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/grwqwv" class="citation-title">
+        A nonlinear support vector machine‐based feature selection approach for fault detection and diagnosis: Application to the Tennessee Eastman process
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">AIChE Journal</span>
+         · 
+        <span class="citation-date">02 Jan 2019</span>
+         · 
+        <span class="citation-id">doi:10.1002/aic.16497</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/grwqwv" class="citation-title">
+        A nonlinear support vector machine‐based feature selection approach for fault detection and diagnosis: Application to the Tennessee Eastman process
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">AIChE Journal</span>
+         · 
+        <span class="citation-date">02 Jan 2019</span>
+         · 
+        <span class="citation-id">doi:10.1002/AIC.16497</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2018">2018</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsmkwr" class="citation-title">
-      Reprint of: Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+      <a href="https://doi.org/gsmkwr" class="citation-title">
+        Reprint of: Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computers &amp; Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Aug 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.compchemeng.2018.10.016</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Computers &amp; Chemical Engineering
-        ·  
-      01 Aug 2018
-        ·  
-      doi:10.1016/j.compchemeng.2018.10.016
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gdtv5n" class="citation-title">
-      An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, Debswapna Bhattacharya, Lauren Blake, Leandro Oliveira Bortot, Renzhi Cao, B. K. Dhanasekaran, Itzhel Dimas, Rodrigo Antonio Faccioli, Eshel Faraggi, Robert Ganzynkowicz, Sambit Ghosh, Soma Ghosh, Artur Giełdoń, Lukasz Golon, Yi He, Lim Heo, Jie Hou, Main Khan, Firas Khatib, George A. Khoury, Chris Kieslich, David E. Kim, Pawel Krupa, Gyu Rie Lee, Hongbo Li, Jilong Li, Agnieszka Lipska, Adam Liwo, Ali Hassan A. Maghrabi, Milot Mirdita, Shokoufeh Mirzaei, Magdalena A. Mozolewska, Melis Onel, Sergey Ovchinnikov, Anand Shah, Utkarsh Shah, Tomer Sidi, Adam K. Sieradzan, Magdalena Ślusarz, Rafal Ślusarz, James Smadbeck, Phanourios Tamamis, Nicholas Trieber, Tomasz Wirecki, Yanping Yin, Yang Zhang, Jaume Bacardit, Maciej Baranowski, Nicholas Chapman, Seth Cooper, Alexandre Defelicibus, Jeff Flatten, Brian Koepnick, Zoran Popović, Bartlomiej Zaborowski, David Baker, Jianlin Cheng, Cezary Czaplewski, Alexandre Cláudio Botazzo Delbem, Christodoulos Floudas, Andrzej Kloczkowski, Stanislaw Ołdziej, Michael Levitt, Harold Scheraga, Chaok Seok, Johannes Söding, Saraswathi Vishveshwara, Dong Xu, Ahmet Caglar, Alan Coral, Alison MacMillan, Allen Lubow, Barbara Failer, Bruno Kestemont, Catherine R. Landers, Charles Robert Painter, Christophe Garnier, Claudine Sellin, Dietmar Janz, Douglas Craig Wheeler, Vera Simon, Dylan M. Flear, Emmanuel Croze, George Victor McIlvaine, Gil Beecher, Gordon Lawrie, Guy Ykman, Harald Feldmann, Heidemarie K. Fuentes, Hosokawa Terumasa, Istvan Kovanecz, James Absalom Longino, Jan Hendrik Nijland, Jasper A. Diderich, Jeffrey M. Canfield, Jesper Eriksson, Jesse David Slone, Joan Goldsworthy Appel, Joanne Mitchell, John Mitch, Jorn Loots-Boiy, June M. Brownlee, Karsten Wilson, Keith T. Clayton, Kenneth E. DeFord, Kirk J. Abbey, Larry Withers, Linda Wei, Lloyd Ives, Lori A. Miller, Lynn Carpenter, Manasa G. Sharma, Manuel Ricci, Mark Stewart Binfield, Matthew John Davids, Matthias Gaebel, Michael D. Cassidy, Michael Fagiola, Michael Pfützenreuter, Nova Barlow, Peter John Triggiani, Renton Braden Mathew Innes, Robert Leduc, Rodrigo Luccas Corrêa dos Santos Gomes, Rosemarie L. R. Morneau, Scott J. Zaccanelli, Susan C. Kleinfelter, T. J. A. van der Laan, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli " tabindex="0">
-      Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, ..., Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli
+      <a href="https://doi.org/gsmkwr" class="citation-title">
+        Reprint of: Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computers &amp; Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Aug 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.COMPCHEMENG.2018.10.016</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Scientific Reports
-        ·  
-      02 Jul 2018
-        ·  
-      doi:10.1038/s41598-018-26812-8
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gdx3v6" class="citation-title">
-      Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+      <a href="https://doi.org/gdtv5n" class="citation-title">
+        An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12
+      </a>
+
+      <div class="citation-authors" data-tooltip="Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, Debswapna Bhattacharya, Lauren Blake, Leandro Oliveira Bortot, Renzhi Cao, B. K. Dhanasekaran, Itzhel Dimas, Rodrigo Antonio Faccioli, Eshel Faraggi, Robert Ganzynkowicz, Sambit Ghosh, Soma Ghosh, Artur Giełdoń, Lukasz Golon, Yi He, Lim Heo, Jie Hou, Main Khan, Firas Khatib, George A. Khoury, Chris Kieslich, David E. Kim, Pawel Krupa, Gyu Rie Lee, Hongbo Li, Jilong Li, Agnieszka Lipska, Adam Liwo, Ali Hassan A. Maghrabi, Milot Mirdita, Shokoufeh Mirzaei, Magdalena A. Mozolewska, Melis Onel, Sergey Ovchinnikov, Anand Shah, Utkarsh Shah, Tomer Sidi, Adam K. Sieradzan, Magdalena Ślusarz, Rafal Ślusarz, James Smadbeck, Phanourios Tamamis, Nicholas Trieber, Tomasz Wirecki, Yanping Yin, Yang Zhang, Jaume Bacardit, Maciej Baranowski, Nicholas Chapman, Seth Cooper, Alexandre Defelicibus, Jeff Flatten, Brian Koepnick, Zoran Popović, Bartlomiej Zaborowski, David Baker, Jianlin Cheng, Cezary Czaplewski, Alexandre Cláudio Botazzo Delbem, Christodoulos Floudas, Andrzej Kloczkowski, Stanislaw Ołdziej, Michael Levitt, Harold Scheraga, Chaok Seok, Johannes Söding, Saraswathi Vishveshwara, Dong Xu, Ahmet Caglar, Alan Coral, Alison MacMillan, Allen Lubow, Barbara Failer, Bruno Kestemont, Catherine R. Landers, Charles Robert Painter, Christophe Garnier, Claudine Sellin, Dietmar Janz, Douglas Craig Wheeler, Vera Simon, Dylan M. Flear, Emmanuel Croze, George Victor McIlvaine, Gil Beecher, Gordon Lawrie, Guy Ykman, Harald Feldmann, Heidemarie K. Fuentes, Hosokawa Terumasa, Istvan Kovanecz, James Absalom Longino, Jan Hendrik Nijland, Jasper A. Diderich, Jeffrey M. Canfield, Jesper Eriksson, Jesse David Slone, Joan Goldsworthy Appel, Joanne Mitchell, John Mitch, Jorn Loots-Boiy, June M. Brownlee, Karsten Wilson, Keith T. Clayton, Kenneth E. DeFord, Kirk J. Abbey, Larry Withers, Linda Wei, Lloyd Ives, Lori A. Miller, Lynn Carpenter, Manasa G. Sharma, Manuel Ricci, Mark Stewart Binfield, Matthew John Davids, Matthias Gaebel, Michael D. Cassidy, Michael Fagiola, Michael Pfützenreuter, Nova Barlow, Peter John Triggiani, Renton Braden Mathew Innes, Robert Leduc, Rodrigo Luccas Corrêa dos Santos Gomes, Rosemarie L. R. Morneau, Scott J. Zaccanelli, Susan C. Kleinfelter, T. J. A. van der Laan, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli" tabindex="0">
+        Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, …, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Reports</span>
+         · 
+        <span class="citation-date">02 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41598-018-26812-8</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Computers &amp; Chemical Engineering
-        ·  
-      01 Jul 2018
-        ·  
-      doi:10.1016/j.compchemeng.2018.03.025
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gdvzmr" class="citation-title">
-      Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Rohith R. Mohan, Mark Wilson, Ronald D. Gorham, Reed E. S. Harrison, Vasilios A. Morikis, Chris A. Kieslich, Asuka A. Orr, Alexis V. Coley, Phanourios Tamamis, Dimitrios Morikis
+      <a href="https://doi.org/gdtv5n" class="citation-title">
+        An analysis and evaluation of the WeFold collaborative for protein structure prediction and its pipelines in CASP11 and CASP12
+      </a>
+
+      <div class="citation-authors" data-tooltip="Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, Debswapna Bhattacharya, Lauren Blake, Leandro Oliveira Bortot, Renzhi Cao, B. K. Dhanasekaran, Itzhel Dimas, Rodrigo Antonio Faccioli, Eshel Faraggi, Robert Ganzynkowicz, Sambit Ghosh, Soma Ghosh, Artur Giełdoń, Lukasz Golon, Yi He, Lim Heo, Jie Hou, Main Khan, Firas Khatib, George A. Khoury, Chris Kieslich, David E. Kim, Pawel Krupa, Gyu Rie Lee, Hongbo Li, Jilong Li, Agnieszka Lipska, Adam Liwo, Ali Hassan A. Maghrabi, Milot Mirdita, Shokoufeh Mirzaei, Magdalena A. Mozolewska, Melis Onel, Sergey Ovchinnikov, Anand Shah, Utkarsh Shah, Tomer Sidi, Adam K. Sieradzan, Magdalena Ślusarz, Rafal Ślusarz, James Smadbeck, Phanourios Tamamis, Nicholas Trieber, Tomasz Wirecki, Yanping Yin, Yang Zhang, Jaume Bacardit, Maciej Baranowski, Nicholas Chapman, Seth Cooper, Alexandre Defelicibus, Jeff Flatten, Brian Koepnick, Zoran Popović, Bartlomiej Zaborowski, David Baker, Jianlin Cheng, Cezary Czaplewski, Alexandre Cláudio Botazzo Delbem, Christodoulos Floudas, Andrzej Kloczkowski, Stanislaw Ołdziej, Michael Levitt, Harold Scheraga, Chaok Seok, Johannes Söding, Saraswathi Vishveshwara, Dong Xu, Ahmet Caglar, Alan Coral, Alison MacMillan, Allen Lubow, Barbara Failer, Bruno Kestemont, Catherine R. Landers, Charles Robert Painter, Christophe Garnier, Claudine Sellin, Dietmar Janz, Douglas Craig Wheeler, Vera Simon, Dylan M. Flear, Emmanuel Croze, George Victor McIlvaine, Gil Beecher, Gordon Lawrie, Guy Ykman, Harald Feldmann, Heidemarie K. Fuentes, Hosokawa Terumasa, Istvan Kovanecz, James Absalom Longino, Jan Hendrik Nijland, Jasper A. Diderich, Jeffrey M. Canfield, Jesper Eriksson, Jesse David Slone, Joan Goldsworthy Appel, Joanne Mitchell, John Mitch, Jorn Loots-Boiy, June M. Brownlee, Karsten Wilson, Keith T. Clayton, Kenneth E. DeFord, Kirk J. Abbey, Larry Withers, Linda Wei, Lloyd Ives, Lori A. Miller, Lynn Carpenter, Manasa G. Sharma, Manuel Ricci, Mark Stewart Binfield, Matthew John Davids, Matthias Gaebel, Michael D. Cassidy, Michael Fagiola, Michael Pfützenreuter, Nova Barlow, Peter John Triggiani, Renton Braden Mathew Innes, Robert Leduc, Rodrigo Luccas Corrêa dos Santos Gomes, Rosemarie L. R. Morneau, Scott J. Zaccanelli, Susan C. Kleinfelter, T. J. A. van der Laan, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli" tabindex="0">
+        Chen Keasar, Liam J. McGuffin, Björn Wallner, Gaurav Chopra, Badri Adhikari, …, Thomas Bausewein, Thomas J. George, Varichev Mikhail, Walter Barmettler, Silvia N. Crivelli
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Scientific Reports</span>
+         · 
+        <span class="citation-date">02 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1038/S41598-018-26812-8</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      ACS Omega
-        ·  
-      15 Jun 2018
-        ·  
-      doi:10.1021/acsomega.8b00606
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gdxnkz" class="citation-title">
-      Optimization of black-box problems using Smolyak grids and polynomial approximations
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Fani Boukouvala, Christodoulos A. Floudas
+      <a href="https://doi.org/gdx3v6" class="citation-title">
+        Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computers &amp; Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.compchemeng.2018.03.025</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Global Optimization
-        ·  
-      03 May 2018
-        ·  
-      doi:10.1007/s10898-018-0643-0
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8f" class="citation-title">
-      Simultaneous Fault Detection and Identification in Continuous Processes via nonlinear Support Vector Machine based Feature Selection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Efstratios N. Pistikopoulos
+      <a href="https://doi.org/gdx3v6" class="citation-title">
+        Big data approach to batch process monitoring: Simultaneous fault detection and diagnosis using nonlinear support vector machine-based feature selection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Christodoulos A. Floudas, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computers &amp; Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jul 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.COMPCHEMENG.2018.03.025</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Computer Aided Chemical Engineering
-        ·  
-      01 Jan 2018
-        ·  
-      doi:10.1016/b978-0-444-64241-7.50341-4
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gdvzmr" class="citation-title">
+        Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Rohith R. Mohan, Mark Wilson, Ronald D. Gorham, Reed E. S. Harrison, Vasilios A. Morikis, Chris A. Kieslich, Asuka A. Orr, Alexis V. Coley, Phanourios Tamamis, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACS Omega</span>
+         · 
+        <span class="citation-date">15 Jun 2018</span>
+         · 
+        <span class="citation-id">doi:10.1021/acsomega.8b00606</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gdvzmr" class="citation-title">
+        Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Rohith R. Mohan, Mark Wilson, Ronald D. Gorham, Reed E. S. Harrison, Vasilios A. Morikis, Chris A. Kieslich, Asuka A. Orr, Alexis V. Coley, Phanourios Tamamis, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACS Omega</span>
+         · 
+        <span class="citation-date">15 Jun 2018</span>
+         · 
+        <span class="citation-id">doi:10.1021/ACSOMEGA.8B00606</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gdxnkz" class="citation-title">
+        Optimization of black-box problems using Smolyak grids and polynomial approximations
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Fani Boukouvala, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Global Optimization</span>
+         · 
+        <span class="citation-date">03 May 2018</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10898-018-0643-0</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gdxnkz" class="citation-title">
+        Optimization of black-box problems using Smolyak grids and polynomial approximations
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Fani Boukouvala, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Global Optimization</span>
+         · 
+        <span class="citation-date">03 May 2018</span>
+         · 
+        <span class="citation-id">doi:10.1007/S10898-018-0643-0</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8f" class="citation-title">
+        Simultaneous Fault Detection and Identification in Continuous Processes via nonlinear Support Vector Machine based Feature Selection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Melis Onel, Chris A. Kieslich, Yannis A. Guzman, Efstratios N. Pistikopoulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Computer Aided Chemical Engineering</span>
+         · 
+        <span class="citation-date">01 Jan 2018</span>
+         · 
+        <span class="citation-id">doi:10.1016/b978-0-444-64241-7.50341-4</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2017">2017</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f983jp" class="citation-title">
-      AESOP: A Python Library for Investigating Electrostatics in Protein Interactions
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Reed E.S. Harrison, Rohith R. Mohan, Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+      <a href="https://doi.org/f983jp" class="citation-title">
+        AESOP: A Python Library for Investigating Electrostatics in Protein Interactions
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Reed E.S. Harrison, Rohith R. Mohan, Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biophysical Journal</span>
+         · 
+        <span class="citation-date">01 May 2017</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.bpj.2017.04.005</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Biophysical Journal
-        ·  
-      01 May 2017
-        ·  
-      doi:10.1016/j.bpj.2017.04.005
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gbk3dk" class="citation-title">
-      Princeton_TIGRESS 2.0: High refinement consistency and net gains through support vector machines and molecular dynamics in double-blind predictions during the CASP11 experiment
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      George A. Khoury, James Smadbeck, Chris A. Kieslich, Alexandra J. Koskosidis, Yannis A. Guzman, Phanourios Tamamis, Christodoulos A. Floudas
+      <a href="https://doi.org/f983jp" class="citation-title">
+        AESOP: A Python Library for Investigating Electrostatics in Protein Interactions
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Reed E.S. Harrison, Rohith R. Mohan, Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biophysical Journal</span>
+         · 
+        <span class="citation-date">01 May 2017</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.BPJ.2017.04.005</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Proteins: Structure, Function, and Bioinformatics
-        ·  
-      21 Mar 2017
-        ·  
-      doi:10.1002/prot.25274
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gbk3dk" class="citation-title">
+        Princeton_TIGRESS 2.0: High refinement consistency and net gains through support vector machines and molecular dynamics in double-blind predictions during the CASP11 experiment
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Chris A. Kieslich, Alexandra J. Koskosidis, Yannis A. Guzman, Phanourios Tamamis, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proteins: Structure, Function, and Bioinformatics</span>
+         · 
+        <span class="citation-date">21 Mar 2017</span>
+         · 
+        <span class="citation-id">doi:10.1002/prot.25274</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gbk3dk" class="citation-title">
+        Princeton_<scp>TIGRESS</scp> 2.0: High refinement consistency and net gains through support vector machines and molecular dynamics in double‐blind predictions during the <scp>CASP</scp>11 experiment
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Chris A. Kieslich, Alexandra J. Koskosidis, Yannis A. Guzman, Phanourios Tamamis, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proteins: Structure, Function, and Bioinformatics</span>
+         · 
+        <span class="citation-date">21 Mar 2017</span>
+         · 
+        <span class="citation-id">doi:10.1002/PROT.25274</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2016">2016</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8g" class="citation-title">
-      conSSert: Consensus SVM Model for Accurate Prediction of Ordered Secondary Structure
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, James Smadbeck, George A. Khoury, Christodoulos A. Floudas
+      <a href="https://doi.org/gsrr8g" class="citation-title">
+        conSSert: Consensus SVM Model for Accurate Prediction of Ordered Secondary Structure
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, James Smadbeck, George A. Khoury, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Information and Modeling</span>
+         · 
+        <span class="citation-date">15 Mar 2016</span>
+         · 
+        <span class="citation-id">doi:10.1021/acs.jcim.5b00566</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Chemical Information and Modeling
-        ·  
-      15 Mar 2016
-        ·  
-      doi:10.1021/acs.jcim.5b00566
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8h" class="citation-title">
-      Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Phanourios Tamamis, Yannis A. Guzman, Melis Onel, Christodoulos A. Floudas
+      <a href="https://doi.org/gsrr8g" class="citation-title">
+        conSSert: Consensus SVM Model for Accurate Prediction of Ordered Secondary Structure
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, James Smadbeck, George A. Khoury, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Information and Modeling</span>
+         · 
+        <span class="citation-date">15 Mar 2016</span>
+         · 
+        <span class="citation-id">doi:10.1021/ACS.JCIM.5B00566</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      PLOS ONE
-        ·  
-      09 Feb 2016
-        ·  
-      doi:10.1371/journal.pone.0148974
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8h" class="citation-title">
+        Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Phanourios Tamamis, Yannis A. Guzman, Melis Onel, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS ONE</span>
+         · 
+        <span class="citation-date">09 Feb 2016</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pone.0148974</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8h" class="citation-title">
+        Highly Accurate Structure-Based Prediction of HIV-1 Coreceptor Usage Suggests Intermolecular Interactions Driving Tropism
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Phanourios Tamamis, Yannis A. Guzman, Melis Onel, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS ONE</span>
+         · 
+        <span class="citation-date">09 Feb 2016</span>
+         · 
+        <span class="citation-id">doi:10.1371/JOURNAL.PONE.0148974</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2014">2014</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f6sdz3" class="citation-title">
-      Derivation of ligands for the complement C3a receptor from the C-terminus of C5a
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, Daniel E Croker, Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk " tabindex="0">
-      Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, ..., Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk
+      <a href="https://doi.org/f6sdz3" class="citation-title">
+        Derivation of ligands for the complement C3a receptor from the C-terminus of C5a
+      </a>
+
+      <div class="citation-authors" data-tooltip="Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, Daniel E Croker, Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk" tabindex="0">
+        Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, …, Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">European Journal of Pharmacology</span>
+         · 
+        <span class="citation-date">01 Dec 2014</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.ejphar.2014.10.041</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      European Journal of Pharmacology
-        ·  
-      01 Dec 2014
-        ·  
-      doi:10.1016/j.ejphar.2014.10.041
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gb8xvb" class="citation-title">
-      Insights into the mechanism of C5aR inhibition by PMX53 via implicit solvent molecular dynamics simulations and docking
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Phanourios Tamamis, Chris A Kieslich, Gregory V Nikiforovich, Trent M Woodruff, Dimitrios Morikis, Georgios Archontis
+      <a href="https://doi.org/f6sdz3" class="citation-title">
+        Derivation of ligands for the complement C3a receptor from the C-terminus of C5a
+      </a>
+
+      <div class="citation-authors" data-tooltip="Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, Daniel E Croker, Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk" tabindex="0">
+        Reena Halai, Meghan L Bellows-Peterson, Will Branchett, James Smadbeck, Chris A Kieslich, …, Matthew A Cooper, Dimitrios Morikis, Trent M Woodruff, Christodoulos A Floudas, Peter N Monk
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">European Journal of Pharmacology</span>
+         · 
+        <span class="citation-date">01 Dec 2014</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.EJPHAR.2014.10.041</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      BMC Biophysics
-        ·  
-      12 Aug 2014
-        ·  
-      doi:10.1186/2046-1682-7-5
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f53kr8" class="citation-title">
-      Engineering pre-SUMO4 as efficient substrate of SENP2
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Y. Liu, C. A. Kieslich, D. Morikis, J. Liao
+      <a href="https://doi.org/gb8xvb" class="citation-title">
+        Insights into the mechanism of C5aR inhibition by PMX53 via implicit solvent molecular dynamics simulations and docking
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Phanourios Tamamis, Chris A Kieslich, Gregory V Nikiforovich, Trent M Woodruff, Dimitrios Morikis, Georgios Archontis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BMC Biophysics</span>
+         · 
+        <span class="citation-date">12 Aug 2014</span>
+         · 
+        <span class="citation-id">doi:10.1186/2046-1682-7-5</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Protein Engineering Design and Selection
-        ·  
-      26 Mar 2014
-        ·  
-      doi:10.1093/protein/gzu004
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f5sdgp" class="citation-title">
-      Protein folding and de novo protein design for biotechnological applications
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      George A. Khoury, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+      <a href="https://doi.org/f53kr8" class="citation-title">
+        Engineering pre-SUMO4 as efficient substrate of SENP2
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Y. Liu, C. A. Kieslich, D. Morikis, J. Liao
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Protein Engineering Design and Selection</span>
+         · 
+        <span class="citation-date">26 Mar 2014</span>
+         · 
+        <span class="citation-id">doi:10.1093/protein/gzu004</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Trends in Biotechnology
-        ·  
-      01 Feb 2014
-        ·  
-      doi:10.1016/j.tibtech.2013.10.008
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gcb7gb" class="citation-title">
-      Forcefield_NCAA: <i>Ab Initio</i> Charge Parameters to Aid in the Discovery and Design of Therapeutic Proteins and Peptides with Unnatural Amino Acids and Their Application to Complement Inhibitors of the Compstatin Family
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      George A. Khoury, James Smadbeck, Phanourios Tamamis, Andrew C. Vandris, Chris A. Kieslich, Christodoulos A. Floudas
+      <a href="https://doi.org/f53kr8" class="citation-title">
+        Engineering pre-SUMO4 as efficient substrate of SENP2
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Y. Liu, C. A. Kieslich, D. Morikis, J. Liao
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Protein Engineering Design and Selection</span>
+         · 
+        <span class="citation-date">26 Mar 2014</span>
+         · 
+        <span class="citation-id">doi:10.1093/PROTEIN/GZU004</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      ACS Synthetic Biology
-        ·  
-      14 Jan 2014
-        ·  
-      doi:10.1021/sb400168u
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f5sdgp" class="citation-title">
+        Protein folding and de novo protein design for biotechnological applications
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Trends in Biotechnology</span>
+         · 
+        <span class="citation-date">01 Feb 2014</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.tibtech.2013.10.008</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f5sdgp" class="citation-title">
+        Protein folding and de novo protein design for biotechnological applications
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Trends in Biotechnology</span>
+         · 
+        <span class="citation-date">01 Feb 2014</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.TIBTECH.2013.10.008</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gcb7gb" class="citation-title">
+        Forcefield_NCAA: <i>Ab Initio</i> Charge Parameters to Aid in the Discovery and Design of Therapeutic Proteins and Peptides with Unnatural Amino Acids and Their Application to Complement Inhibitors of the Compstatin Family
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Phanourios Tamamis, Andrew C. Vandris, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACS Synthetic
+Biology</span>
+         · 
+        <span class="citation-date">06 Jan 2014</span>
+         · 
+        <span class="citation-id">doi:10.1021/sb400168u</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gcb7gb" class="citation-title">
+        Forcefield_NCAA:
+                    <i>Ab Initio</i>
+                    Charge
+Parameters to Aid in the Discovery and Design of Therapeutic Proteins
+and Peptides with Unnatural Amino Acids and Their Application to Complement
+Inhibitors of the Compstatin Family
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, James Smadbeck, Phanourios Tamamis, Andrew C. Vandris, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACS Synthetic
+Biology</span>
+         · 
+        <span class="citation-date">06 Jan 2014</span>
+         · 
+        <span class="citation-id">doi:10.1021/SB400168U</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2013">2013</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f5j86t" class="citation-title">
-      Forcefield_PTM: <i>Ab Initio</i> Charge and AMBER Forcefield Parameters for Frequently Occurring Post-Translational Modifications
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      George A. Khoury, Jeff P. Thompson, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+      <a href="https://doi.org/f5j86t" class="citation-title">
+        Forcefield_PTM: <i>Ab Initio</i> Charge and AMBER Forcefield Parameters for Frequently Occurring Post-Translational Modifications
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, Jeff P. Thompson, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Theory and Computation</span>
+         · 
+        <span class="citation-date">02 Dec 2013</span>
+         · 
+        <span class="citation-id">doi:10.1021/ct400556v</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Chemical Theory and Computation
-        ·  
-      02 Dec 2013
-        ·  
-      doi:10.1021/ct400556v
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f56b45" class="citation-title">
-      Princeton_TIGRESS: Protein geometry refinement using simulations and support vector machines
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      George A. Khoury, Phanourios Tamamis, Neesha Pinnaduwage, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+      <a href="https://doi.org/f5j86t" class="citation-title">
+        Forcefield_PTM:<i>Ab Initio</i>Charge and AMBER Forcefield Parameters for Frequently Occurring Post-Translational Modifications
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, Jeff P. Thompson, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Chemical Theory and Computation</span>
+         · 
+        <span class="citation-date">02 Dec 2013</span>
+         · 
+        <span class="citation-id">doi:10.1021/CT400556V</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Proteins: Structure, Function, and Bioinformatics
-        ·  
-      22 Nov 2013
-        ·  
-      doi:10.1002/prot.24459
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f5hx5b" class="citation-title">
-      Novel compstatin family peptides inhibit complement activation by drusen-like deposits in human retinal pigmented epithelial cell cultures
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, Chris A. Kieslich, Christopher D. Banna, Meghan L. Bellows-Peterson, Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis " tabindex="0">
-      Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, ..., Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis
+      <a href="https://doi.org/f56b45" class="citation-title">
+        Princeton_TIGRESS: Protein geometry refinement using simulations and support vector machines
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, Phanourios Tamamis, Neesha Pinnaduwage, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proteins: Structure, Function, and Bioinformatics</span>
+         · 
+        <span class="citation-date">22 Nov 2013</span>
+         · 
+        <span class="citation-id">doi:10.1002/prot.24459</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Experimental Eye Research
-        ·  
-      01 Nov 2013
-        ·  
-      doi:10.1016/j.exer.2013.07.023
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gsrr8j" class="citation-title">
-      A Predictive Model for HIV Type 1 Coreceptor Selectivity
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, David Shin, Aliana López de Victoria, Gloria González-Rivera, Dimitrios Morikis
+      <a href="https://doi.org/f56b45" class="citation-title">
+        Princeton_TIGRESS: Protein geometry refinement using simulations and support vector machines
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        George A. Khoury, Phanourios Tamamis, Neesha Pinnaduwage, James Smadbeck, Chris A. Kieslich, Christodoulos A. Floudas
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Proteins: Structure, Function, and Bioinformatics</span>
+         · 
+        <span class="citation-date">22 Nov 2013</span>
+         · 
+        <span class="citation-id">doi:10.1002/PROT.24459</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      AIDS Research and Human Retroviruses
-        ·  
-      01 Oct 2013
-        ·  
-      doi:10.1089/aid.2012.0173
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f5hx5b" class="citation-title">
+        Novel compstatin family peptides inhibit complement activation by drusen-like deposits in human retinal pigmented epithelial cell cultures
+      </a>
+
+      <div class="citation-authors" data-tooltip="Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, Chris A. Kieslich, Christopher D. Banna, Meghan L. Bellows-Peterson, Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis" tabindex="0">
+        Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, …, Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Experimental Eye Research</span>
+         · 
+        <span class="citation-date">01 Nov 2013</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.exer.2013.07.023</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f5hx5b" class="citation-title">
+        Novel compstatin family peptides inhibit complement activation by drusen-like deposits in human retinal pigmented epithelial cell cultures
+      </a>
+
+      <div class="citation-authors" data-tooltip="Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, Chris A. Kieslich, Christopher D. Banna, Meghan L. Bellows-Peterson, Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis" tabindex="0">
+        Ronald D. Gorham, David L. Forest, Phanourios Tamamis, Aliana López de Victoria, Márta Kraszni, …, Cynthia K. Larive, Christodoulos A. Floudas, Georgios Archontis, Lincoln V. Johnson, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Experimental Eye Research</span>
+         · 
+        <span class="citation-date">01 Nov 2013</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.EXER.2013.07.023</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8j" class="citation-title">
+        A Predictive Model for HIV Type 1 Coreceptor Selectivity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, David Shin, Aliana López de Victoria, Gloria González-Rivera, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">AIDS Research and Human Retroviruses</span>
+         · 
+        <span class="citation-date">01 Oct 2013</span>
+         · 
+        <span class="citation-id">doi:10.1089/aid.2012.0173</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8j" class="citation-title">
+        A Predictive Model for HIV Type 1 Coreceptor Selectivity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, David Shin, Aliana López de Victoria, Gloria González-Rivera, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">AIDS Research and Human Retroviruses</span>
+         · 
+        <span class="citation-date">01 Oct 2013</span>
+         · 
+        <span class="citation-id">doi:10.1089/AID.2012.0173</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gsrr8k" class="citation-title">
+        Erratum to “Electrostatic exploration of the C3d–FH4 interaction using a computational alanine scan” [Mol. Immunol. 48 (2011) 1844–1850]
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Atlal M. El-Assaad, Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Immunology</span>
+         · 
+        <span class="citation-date">01 Jan 2013</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.MOLIMM.2012.07.006</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2012">2012</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f4hnhj" class="citation-title">
-      The Two Sides of Complement C3d: Evolution of Electrostatics in a Link between Innate and Adaptive Immunity
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Dimitrios Morikis
+      <a href="https://doi.org/f4hnhj" class="citation-title">
+        The Two Sides of Complement C3d: Evolution of Electrostatics in a Link between Innate and Adaptive Immunity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLoS Computational Biology</span>
+         · 
+        <span class="citation-date">27 Dec 2012</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pcbi.1002840</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      PLoS Computational Biology
-        ·  
-      27 Dec 2012
-        ·  
-      doi:10.1371/journal.pcbi.1002840
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f4dw46" class="citation-title">
-      Insights into the Structure, Correlated Motions, and Electrostatic Properties of Two HIV-1 gp120 V3 Loops
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Aliana López de Victoria, Phanourios Tamamis, Chris A. Kieslich, Dimitrios Morikis
+      <a href="https://doi.org/f4hnhj" class="citation-title">
+        The Two Sides of Complement C3d: Evolution of Electrostatics in a Link between Innate and Adaptive Immunity
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLoS Computational Biology</span>
+         · 
+        <span class="citation-date">27 Dec 2012</span>
+         · 
+        <span class="citation-id">doi:10.1371/JOURNAL.PCBI.1002840</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      PLoS ONE
-        ·  
-      19 Nov 2012
-        ·  
-      doi:10.1371/journal.pone.0049925
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/f3xz2c" class="citation-title">
-      De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities: Theoretical Predictions and Experimental Validation
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Meghan L. Bellows-Peterson, Ho Ki Fung, Christodoulos A. Floudas, Chris A. Kieslich, Li Zhang, Dimitrios Morikis, Kathryn J. Wareham, Peter N. Monk, Owen A. Hawksworth, Trent M. Woodruff
+      <a href="https://doi.org/f4dw46" class="citation-title">
+        Insights into the Structure, Correlated Motions, and Electrostatic Properties of Two HIV-1 gp120 V3 Loops
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Aliana López de Victoria, Phanourios Tamamis, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLoS ONE</span>
+         · 
+        <span class="citation-date">19 Nov 2012</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pone.0049925</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Medicinal Chemistry
-        ·  
-      20 Apr 2012
-        ·  
-      doi:10.1021/jm201609k
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/gb8xvx" class="citation-title">
-      Clustering of HIV-1 Subtypes Based on gp120 V3 Loop electrostatic properties
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Aliana López de Victoria, Chris A Kieslich, Apostolos K Rizos, Elias Krambovitis, Dimitrios Morikis
+      <a href="https://doi.org/f4dw46" class="citation-title">
+        Insights into the Structure, Correlated Motions, and Electrostatic Properties of Two HIV-1 gp120 V3 Loops
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Aliana López de Victoria, Phanourios Tamamis, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLoS ONE</span>
+         · 
+        <span class="citation-date">19 Nov 2012</span>
+         · 
+        <span class="citation-id">doi:10.1371/JOURNAL.PONE.0049925</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      BMC Biophysics
-        ·  
-      07 Feb 2012
-        ·  
-      doi:10.1186/2046-1682-5-3
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f3xz2c" class="citation-title">
+        De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities: Theoretical Predictions and Experimental Validation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Meghan L. Bellows-Peterson, Ho Ki Fung, Christodoulos A. Floudas, Chris A. Kieslich, Li Zhang, Dimitrios Morikis, Kathryn J. Wareham, Peter N. Monk, Owen A. Hawksworth, Trent M. Woodruff
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Medicinal Chemistry</span>
+         · 
+        <span class="citation-date">20 Apr 2012</span>
+         · 
+        <span class="citation-id">doi:10.1021/jm201609k</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/f3xz2c" class="citation-title">
+        De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities: Theoretical Predictions and Experimental Validation
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Meghan L. Bellows-Peterson, Ho Ki Fung, Christodoulos A. Floudas, Chris A. Kieslich, Li Zhang, Dimitrios Morikis, Kathryn J. Wareham, Peter N. Monk, Owen A. Hawksworth, Trent M. Woodruff
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Medicinal Chemistry</span>
+         · 
+        <span class="citation-date">20 Apr 2012</span>
+         · 
+        <span class="citation-id">doi:10.1021/JM201609K</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gb8xvx" class="citation-title">
+        Clustering of HIV-1 Subtypes Based on gp120 V3 Loop electrostatic properties
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Aliana López de Victoria, Chris A Kieslich, Apostolos K Rizos, Elias Krambovitis, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">BMC Biophysics</span>
+         · 
+        <span class="citation-date">07 Feb 2012</span>
+         · 
+        <span class="citation-id">doi:10.1186/2046-1682-5-3</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hchhqg" class="citation-title">
+        The Role of Electrostatics in the Function of Homologous Thioester Containing Proteins: Insights into the Evolution of the Complement C3d:Cr2 Interaction
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biophysical Journal</span>
+         · 
+        <span class="citation-date">01 Jan 2012</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.BPJ.2011.11.2539</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hchhqf" class="citation-title">
+        Charge Discriminates Coreceptor Selectivity for HIV-1
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Aliana Lopez de Victoria, David Shin, Gloria Gonzalez-Rivera, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biophysical Journal</span>
+         · 
+        <span class="citation-date">01 Jan 2012</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.BPJ.2011.11.381</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2011">2011</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/bbrq66" class="citation-title">
-      Electrostatic exploration of the C3d–FH4 interaction using a computational alanine scan
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Atlal M. El-Assaad, Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+      <a href="https://doi.org/bbrq66" class="citation-title">
+        Electrostatic exploration of the C3d–FH4 interaction using a computational alanine scan
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Atlal M. El-Assaad, Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Immunology</span>
+         · 
+        <span class="citation-date">01 Sep 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.molimm.2011.05.007</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Molecular Immunology
-        ·  
-      01 Sep 2011
-        ·  
-      doi:10.1016/j.molimm.2011.05.007
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/c7d92b" class="citation-title">
-      Complement Inhibition by Staphylococcus aureus: Electrostatics of C3d–EfbC and C3d–Ehp Association
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+      <a href="https://doi.org/bbrq66" class="citation-title">
+        Electrostatic exploration of the C3d–FH4 interaction using a computational alanine scan
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Atlal M. El-Assaad, Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Immunology</span>
+         · 
+        <span class="citation-date">01 Sep 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.MOLIMM.2011.05.007</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Cellular and Molecular Bioengineering
-        ·  
-      18 Aug 2011
-        ·  
-      doi:10.1007/s12195-011-0195-6
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/fkn3hr" class="citation-title">
-      The effect of electrostatics on factor H function and related pathologies
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Homero Vazquez, Gabrielle N. Goodman, Aliana López de Victoria, Dimitrios Morikis
+      <a href="https://doi.org/c7d92b" class="citation-title">
+        Complement Inhibition by Staphylococcus aureus: Electrostatics of C3d–EfbC and C3d–Ehp Association
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cellular and Molecular Bioengineering</span>
+         · 
+        <span class="citation-date">18 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1007/s12195-011-0195-6</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Molecular Graphics and Modelling
-        ·  
-      01 Aug 2011
-        ·  
-      doi:10.1016/j.jmgm.2011.04.010
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/c5vdsj" class="citation-title">
-      Electrostatic Similarity Determination Using Multiresolution Analysis
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Huseyin Hakkoymaz, Chris A. Kieslich, Ronald D. Gorham Jr., Dimitrios Gunopulos, Dimitrios Morikis
+      <a href="https://doi.org/c7d92b" class="citation-title">
+        Complement Inhibition by Staphylococcus aureus: Electrostatics of C3d–EfbC and C3d–Ehp Association
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cellular and Molecular Bioengineering</span>
+         · 
+        <span class="citation-date">18 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1007/S12195-011-0195-6</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Molecular Informatics
-        ·  
-      01 Aug 2011
-        ·  
-      doi:10.1002/minf.201100002
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/ctjd25" class="citation-title">
-      An evaluation of poisson-boltzmann electrostatic free energy calculations through comparison with experimental mutagenesis data
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Ronald D. Gorham, Chris A. Kieslich, Aaron Nichols, Noriko U. Sausman, Marisse Foronda, Dimitrios Morikis
+      <a href="https://doi.org/fkn3hr" class="citation-title">
+        The effect of electrostatics on factor H function and related pathologies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Homero Vazquez, Gabrielle N. Goodman, Aliana López de Victoria, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Molecular Graphics and Modelling</span>
+         · 
+        <span class="citation-date">01 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.jmgm.2011.04.010</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Biopolymers
-        ·  
-      02 May 2011
-        ·  
-      doi:10.1002/bip.21644
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/c3r7js" class="citation-title">
-      Automated computational framework for the analysis of electrostatic similarities of proteins
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Dimitrios Morikis, Jianfeng Yang, Dimitrios Gunopulos
+      <a href="https://doi.org/c5vdsj" class="citation-title">
+        Electrostatic Similarity Determination Using Multiresolution Analysis
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Huseyin Hakkoymaz, Chris A. Kieslich, Ronald D. Gorham Jr., Dimitrios Gunopulos, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Informatics</span>
+         · 
+        <span class="citation-date">01 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/minf.201100002</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Biotechnology Progress
-        ·  
-      14 Jan 2011
-        ·  
-      doi:10.1002/btpr.541
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/fpn7m2" class="citation-title">
-      Is the rigid-body assumption reasonable?
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+      <a href="https://doi.org/fkn3hr" class="citation-title">
+        The effect of electrostatics on factor H function and related pathologies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Homero Vazquez, Gabrielle N. Goodman, Aliana López de Victoria, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Molecular Graphics and Modelling</span>
+         · 
+        <span class="citation-date">01 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.JMGM.2011.04.010</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      Journal of Non-Crystalline Solids
-        ·  
-      01 Jan 2011
-        ·  
-      doi:10.1016/j.jnoncrysol.2010.05.087
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/c5vdsj" class="citation-title">
+        Electrostatic Similarity Determination Using Multiresolution Analysis
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Huseyin Hakkoymaz, Chris A. Kieslich, Ronald D. Gorham Jr., Dimitrios Gunopulos, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Informatics</span>
+         · 
+        <span class="citation-date">01 Aug 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/MINF.201100002</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/ctjd25" class="citation-title">
+        An evaluation of poisson-boltzmann electrostatic free energy calculations through comparison with experimental mutagenesis data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Aaron Nichols, Noriko U. Sausman, Marisse Foronda, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biopolymers</span>
+         · 
+        <span class="citation-date">02 May 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/bip.21644</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/ctjd25" class="citation-title">
+        An evaluation of Poisson–Boltzmann electrostatic free energy calculations through comparison with experimental mutagenesis data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Aaron Nichols, Noriko U. Sausman, Marisse Foronda, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biopolymers</span>
+         · 
+        <span class="citation-date">02 May 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/BIP.21644</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/c3r7js" class="citation-title">
+        Automated computational framework for the analysis of electrostatic similarities of proteins
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Dimitrios Morikis, Jianfeng Yang, Dimitrios Gunopulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biotechnology Progress</span>
+         · 
+        <span class="citation-date">14 Jan 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/btpr.541</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/c3r7js" class="citation-title">
+        Automated computational framework for the analysis of electrostatic similarities of proteins
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Dimitrios Morikis, Jianfeng Yang, Dimitrios Gunopulos
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biotechnology Progress</span>
+         · 
+        <span class="citation-date">14 Jan 2011</span>
+         · 
+        <span class="citation-id">doi:10.1002/BTPR.541</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/fpn7m2" class="citation-title">
+        Is the rigid-body assumption reasonable?
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Non-Crystalline Solids</span>
+         · 
+        <span class="citation-date">01 Jan 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.jnoncrysol.2010.05.087</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/fpn7m2" class="citation-title">
+        Is the rigid-body assumption reasonable?
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chris A. Kieslich, Ronald D. Gorham, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Non-Crystalline Solids</span>
+         · 
+        <span class="citation-date">01 Jan 2011</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.JNONCRYSOL.2010.05.087</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2010">2010</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/dkqgcf" class="citation-title">
-      Electrostatic Clustering and Free Energy Calculations Provide a Foundation for Protein Design and Optimization
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+      <a href="https://doi.org/dkqgcf" class="citation-title">
+        Electrostatic Clustering and Free Energy Calculations Provide a Foundation for Protein Design and Optimization
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Annals of Biomedical Engineering</span>
+         · 
+        <span class="citation-date">08 Dec 2010</span>
+         · 
+        <span class="citation-id">doi:10.1007/s10439-010-0226-9</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Annals of Biomedical Engineering
-        ·  
-      08 Dec 2010
-        ·  
-      doi:10.1007/s10439-010-0226-9
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/cqfgkv" class="citation-title">
-      A multifaceted study of stigma/style cysteine-rich adhesin (SCA)-like Arabidopsis lipid transfer proteins (LTPs) suggests diversified roles for these LTPs in plant growth and reproduction
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Keun Chae, Benedict J. Gonong, Seung-Chul Kim, Chris A. Kieslich, Dimitrios Morikis, Shruthi Balasubramanian, Elizabeth M. Lord
+      <a href="https://doi.org/dkqgcf" class="citation-title">
+        Electrostatic Clustering and Free Energy Calculations Provide a Foundation for Protein Design and Optimization
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ronald D. Gorham, Chris A. Kieslich, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Annals of Biomedical Engineering</span>
+         · 
+        <span class="citation-date">08 Dec 2010</span>
+         · 
+        <span class="citation-id">doi:10.1007/S10439-010-0226-9</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Journal of Experimental Botany
-        ·  
-      28 Jul 2010
-        ·  
-      doi:10.1093/jxb/erq228
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/d84s4k" class="citation-title">
-      Solvation effects in calculated electrostatic association free energies for the C3d-CR2 complex, and comparison to experimental data
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Alexander S. Cheung, Chris A. Kieslich, Jianfeng Yang, Dimitrios Morikis
+      <a href="https://doi.org/cqfgkv" class="citation-title">
+        A multifaceted study of stigma/style cysteine-rich adhesin (SCA)-like Arabidopsis lipid transfer proteins (LTPs) suggests diversified roles for these LTPs in plant growth and reproduction
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Keun Chae, Benedict J. Gonong, Seung-Chul Kim, Chris A. Kieslich, Dimitrios Morikis, Shruthi Balasubramanian, Elizabeth M. Lord
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Experimental Botany</span>
+         · 
+        <span class="citation-date">28 Jul 2010</span>
+         · 
+        <span class="citation-id">doi:10.1093/jxb/erq228</span>
+      </div>
+
+      
     </div>
-
-    <div class="citation-details">
-      Biopolymers
-        ·  
-      20 Jan 2010
-        ·  
-      doi:10.1002/bip.21388
-    </div>
-
-    
   </div>
 </div>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/fcks6c" class="citation-title">
-      Influence of Electrostatics on the Complement Regulatory Functions of Kaposica, the Complement Inhibitor of Kaposi’s Sarcoma-Associated Herpesvirus
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Kalyani Pyaram, Chris A Kieslich, Viveka Nand Yadav, Dimitrios Morikis, Arvind Sahu
+      <a href="https://doi.org/cqfgkv" class="citation-title">
+        A multifaceted study of stigma/style cysteine-rich adhesin (SCA)-like Arabidopsis lipid transfer proteins (LTPs) suggests diversified roles for these LTPs in plant growth and reproduction
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Keun Chae, Benedict J. Gonong, Seung-Chul Kim, Chris A. Kieslich, Dimitrios Morikis, Shruthi Balasubramanian, Elizabeth M. Lord
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Journal of Experimental Botany</span>
+         · 
+        <span class="citation-date">28 Jul 2010</span>
+         · 
+        <span class="citation-id">doi:10.1093/JXB/ERQ228</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      The Journal of Immunology
-        ·  
-      20 Jan 2010
-        ·  
-      doi:10.4049/jimmunol.0903261
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/d84s4k" class="citation-title">
+        Solvation effects in calculated electrostatic association free energies for the C3d-CR2 complex, and comparison to experimental data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alexander S. Cheung, Chris A. Kieslich, Jianfeng Yang, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biopolymers</span>
+         · 
+        <span class="citation-date">20 Jan 2010</span>
+         · 
+        <span class="citation-id">doi:10.1002/bip.21388</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/fcks6c" class="citation-title">
+        Influence of Electrostatics on the Complement Regulatory Functions of Kaposica, the Complement Inhibitor of Kaposi’s Sarcoma-Associated Herpesvirus
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Kalyani Pyaram, Chris A Kieslich, Viveka Nand Yadav, Dimitrios Morikis, Arvind Sahu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Immunology</span>
+         · 
+        <span class="citation-date">20 Jan 2010</span>
+         · 
+        <span class="citation-id">doi:10.4049/jimmunol.0903261</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/d84s4k" class="citation-title">
+        Solvation effects in calculated electrostatic association free energies for the C3d‐CR2 complex and comparison with experimental data
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alexander S. Cheung, Chris A. Kieslich, Jianfeng Yang, Dimitrios Morikis
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Biopolymers</span>
+         · 
+        <span class="citation-date">20 Jan 2010</span>
+         · 
+        <span class="citation-id">doi:10.1002/BIP.21388</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/fcks6c" class="citation-title">
+        Influence of Electrostatics on the Complement Regulatory Functions of Kaposica, the Complement Inhibitor of Kaposi’s Sarcoma-Associated Herpesvirus
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Kalyani Pyaram, Chris A Kieslich, Viveka Nand Yadav, Dimitrios Morikis, Arvind Sahu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Journal of Immunology</span>
+         · 
+        <span class="citation-date">20 Jan 2010</span>
+         · 
+        <span class="citation-id">doi:10.4049/JIMMUNOL.0903261</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
 
 <h3 id="2009">2009</h3>
 
-<div class="citation">
-  
-
-  <div class="citation-text">
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    <a href="https://doi.org/b8ndnq" class="citation-title">
-      A Gain-of-Function Mutation of<i>Arabidopsis</i>Lipid Transfer Protein 5 Disturbs Pollen Tube Tip Growth and Fertilization
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Keun Chae, Chris A. Kieslich, Dimitrios Morikis, Seung-Chul Kim, Elizabeth M. Lord
+      <a href="https://doi.org/b8ndnq" class="citation-title">
+        A Gain-of-Function Mutation of<i>Arabidopsis</i>Lipid Transfer Protein 5 Disturbs Pollen Tube Tip Growth and Fertilization
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Keun Chae, Chris A. Kieslich, Dimitrios Morikis, Seung-Chul Kim, Elizabeth M. Lord
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Plant Cell</span>
+         · 
+        <span class="citation-date">01 Dec 2009</span>
+         · 
+        <span class="citation-id">doi:10.1105/tpc.109.070854</span>
+      </div>
+
+      
     </div>
+  </div>
+</div>
 
-    <div class="citation-details">
-      The Plant Cell
-        ·  
-      01 Dec 2009
-        ·  
-      doi:10.1105/tpc.109.070854
-    </div>
-
+<div class="citation-container">
+  <div class="citation">
     
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/b8ndnq" class="citation-title">
+        A Gain-of-Function Mutation of<i>Arabidopsis</i>Lipid Transfer Protein 5 Disturbs Pollen Tube Tip Growth and Fertilization
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Keun Chae, Chris A. Kieslich, Dimitrios Morikis, Seung-Chul Kim, Elizabeth M. Lord
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Plant Cell</span>
+         · 
+        <span class="citation-date">01 Dec 2009</span>
+         · 
+        <span class="citation-id">doi:10.1105/TPC.109.070854</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3 id="2008">2008</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/ccfv93" class="citation-title">
+        Influence of electrostatic potential on the complement regulatory functions of Kaposica, the complement inhibitor of Kaposi's sarcoma-associated herpesvirus
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Kalyani Pyaram, Chris Kieslich, Viveka Nand Yadav, Dimitrios Morikis, Arvind Sahu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Molecular Immunology</span>
+         · 
+        <span class="citation-date">01 Oct 2008</span>
+         · 
+        <span class="citation-id">doi:10.1016/J.MOLIMM.2008.08.217</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<h3></h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000208762003442" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000208762003442</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000291982804066" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000291982804066</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104314" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000324475104314</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104422" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000324475104422</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104443" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000324475104443</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000321561200316" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000321561200316</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436985002294" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000436985002294</span>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436986704259" class="citation-title">
+        Web of Science
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">[no publisher info]</span>
+         · 
+        <span class="citation-date">[no date info]</span>
+         · 
+        <span class="citation-id">wosuid:WOS:000436986704259</span>
+      </div>
+
+      
+    </div>
   </div>
 </div>
   </section>
