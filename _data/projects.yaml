@@ -1,5 +1,5 @@
 - title: FFT Protein
-  subtitle: Interpetable machine learning of protein function using Fourier-based encoding
+  subtitle: Interpretable machine learning of protein function using Fourier-based encoding
   group: research
   image: images/fftML.png
   link: 
@@ -13,23 +13,23 @@
   group: research
   image: images/proteinGNN.png
   link: 
-  description: Provides basic tools for manipulating PDB files, including visualization through dash.bio, and provides a framework for developing Graph Neural Networks based portein structural data.
+  description: Provides basic tools for manipulating PDB files, including visualization through dash.bio, and a framework for developing graph neural networks based on protein structural data.
   repo: 
   tags:
     - software
 
-- title: smolyay
+- title: Smolyak
   subtitle: Python tools for surrogate modeling using the Smolyak sparse grid method.
   group: research
   image: images/smolyak.png
   link: https://github.com/biomodsquad/smolyak-surrogate-modeling
   description: Work in collaboration with Mike Howard (Auburn University) aimed at developing tools for multi-scale modeling based on Smolyak sparse grids. 
-  repo: 
-  tags: biomodsquad/smolyak-surrogate-modeling
+  repo: biomodsquad/smolyak-surrogate-modeling
+  tags:
     - software
 
 - title: introCSB
-  subtitle: R Resources for Learning Comptutational Systems Biology
+  subtitle: R resources for learning computational systems biology
   group: education
   image: images/shiny.png
   link: https://cakieslich.github.io/introCSB/
@@ -38,4 +38,3 @@
   tags:
     - resource
     - software
-

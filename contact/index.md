@@ -7,11 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-<video autoplay muted plays-inline loop style="width: 75%">
+<video autoplay muted playsinline loop style="width: 75%">
   <source src="https://biomodsquad.org/images/biomodsquad.mp4" type="video/mp4">
 </video>
 
-Our lab is part of [Georgia Institute of Technology](https://www.gatech.edu/) and [Emory University](https://www.emory.edu/)’s [Wallace H. Coulter Department of Biomedical Engineering]([https://www.eng.auburn.edu/chen/](https://bme.gatech.edu/)). 
+Our lab is part of the [Wallace H. Coulter Department of Biomedical Engineering](https://bme.gatech.edu/), a joint department of the [Georgia Institute of Technology](https://www.gatech.edu/) and [Emory University](https://www.emory.edu/).
 
 {%
   include button.html

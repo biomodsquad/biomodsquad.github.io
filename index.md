@@ -4,7 +4,7 @@
 
 Our work focuses on using computer simulations, global optimization, and machine learning to model biology across the molecular and systems scales, and then leveraging these models for therapeutic design. To tackle these challenges, we develop mechanistic and data-driven models that can predict how molecular changes affect therapeutic properties, as well as, how these properties relate to drug efficacy at cellular, tissue, or organismal scales. To support our therapeutic design research, our work also includes general advancements in machine learning and optimization algorithms. On this site you will find descriptions of current and past projects, along with relevant publications. You will also find details of our efforts to develop computational resources for education, and please feel free to reach out if you have any questions.
 
-<video autoplay muted plays-inline loop style="width: 60%">
+<video autoplay muted playsinline loop style="width: 60%">
   <source src="https://biomodsquad.org/images/biomodsquad.mp4" type="video/mp4">
 </video>
 
@@ -38,7 +38,7 @@ Our research has two main focuses, Data-driven Therapeutic Design and Multi-scal
 
 {% capture text %}
 
-Our published work includes comptuational tool development for machine learning and optimization, as well as, application specific models in the areas of Immunology, Cancer Biology, and Computational Drug Design. (Painting by David S. Goodsell) 
+Our published work includes computational tool development for machine learning and optimization, as well as application-specific models in immunology, cancer biology, and computational drug design. (Painting by David S. Goodsell.)
 
 {%
   include button.html
@@ -108,5 +108,4 @@ Our team is highly collaborative and strives to find creative solutions to chall
 %}
 
 {% include section.html %}
-
 

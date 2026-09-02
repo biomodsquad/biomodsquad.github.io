@@ -13,7 +13,7 @@ biomolecular modeling, machine learning, and global optimization. Accordingly, w
 environment where diverse perspectives and experiences are not only welcomed but sought after.
 
 <div class ="page-image">
-  <img src="/images/biomodsquad_26oct23.jpg" alt="BioModSquad Group Photto">
+  <img src="/images/biomodsquad_26oct23.jpg" alt="BioModSquad group photo">
 </div>
 
 {% include section.html %}
