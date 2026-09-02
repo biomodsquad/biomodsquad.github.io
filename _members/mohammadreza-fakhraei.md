@@ -2,7 +2,7 @@
 name: Mohammadreza Fakhraei 
 image: images/reza.jpg
 role: phd
-group: current
+group: alumni
 location: Auburn University
 ---
 
