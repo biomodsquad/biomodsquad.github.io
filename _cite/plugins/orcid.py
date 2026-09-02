@@ -35,9 +35,12 @@ def main(entry):
     # go through response structure and pull out ids e.g. doi:1234/56789
     for work in response:
         # get list of ids
-        ids = work.get("external-ids", {}).get("external-id", [])
-        for summary in work.get("work-summary", []):
-            ids = ids + summary.get("external-ids", {}).get("external-id", [])
+        ids = (work.get("external-ids") or {}).get("external-id") or []
+        for summary in work.get("work-summary") or []:
+            if not isinstance(summary, dict):
+                continue
+            ids = ids + ((summary.get("external-ids") or {}).get("external-id") or [])
+        ids = [item for item in ids if isinstance(item, dict)]
 
         # prefer doi id type, or fallback to first id
         _id = next(
@@ -55,7 +58,11 @@ def main(entry):
         # if not a doi, Manubot likely can't cite, so keep citation details
         if id_type != "doi":
             # get summaries
-            summaries = work.get("work-summary", [])
+            summaries = [
+                summary
+                for summary in (work.get("work-summary") or [])
+                if isinstance(summary, dict)
+            ]
 
             # sort summary entries by most recent
             summaries = sorted(
@@ -70,7 +77,7 @@ def main(entry):
 
             # get first summary with defined sub-value
             def first(get_func):
-                return next(value for value in map(get_func, summaries) if value)
+                return next((value for value in map(get_func, summaries) if value), "")
 
             # get title
             title = first(
@@ -90,7 +97,7 @@ def main(entry):
             )
 
             # get link
-            link = first(lambda s: s.get("url", {}).get("value", ""))
+            link = first(lambda s: (s.get("url") or {}).get("value", ""))
 
             # keep available details
             if title:
