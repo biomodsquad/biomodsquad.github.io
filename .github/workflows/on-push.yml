@@ -21,4 +21,5 @@ jobs:
 
   build-site:
     needs: update-citations
+    if: always()
     uses: ./.github/workflows/build-site.yaml
