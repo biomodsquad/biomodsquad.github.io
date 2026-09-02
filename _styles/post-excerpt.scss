@@ -1,16 +1,30 @@
 ---
 ---
 
-$thumb-size: 180px;
+$thumb-size: 200px;
+$wrap: 800px;
 
-.post-image {
+.post-excerpt-container {
+  container-type: inline-size;
+}
+
+.post-excerpt {
+  display: flex;
+  margin: 20px 0;
+  border-radius: var(--rounded);
+  background: var(--background);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.post-excerpt-image {
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
   // box-shadow: var(--shadow);
 }
 
-.post-image img {
+.post-excerpt-image img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -18,31 +32,38 @@ $thumb-size: 180px;
   object-fit: contain;
 }
 
-.post-excerpt {
+.post-excerpt-text {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 20px 0;
   padding: 20px 30px;
-  border-radius: var(--rounded);
-  background: var(--background);
   text-align: left;
-  box-shadow: var(--shadow);
 }
 
-.post-excerpt > * {
+.post-excerpt-text > * {
   margin: 0 !important;
 }
 
-.post-excerpt > a:first-child {
+.post-excerpt-text > a:first-child {
   width: 100%;
   font-weight: var(--semi-bold);
 }
 
-.post-excerpt > div {
+.post-excerpt-text > div {
   justify-content: flex-start;
 }
 
-.post-excerpt > p {
+.post-excerpt-text > p {
   width: 100%;
+}
+
+@container (max-width: #{$wrap}) {
+  .post-excerpt {
+    flex-direction: column;
+  }
+
+  .post-excerpt-image {
+    width: unset;
+    height: $thumb-size;
+  }
 }

@@ -18,11 +18,10 @@ and optimization. These tools include foundational resources that enable therape
 
 ## Research
 
-{% include list.html component="card" data="projects" filters="group: research" %}
+{% include list.html component="card" data="projects" filter="group == 'research'" %}
 
 {% include section.html %}
 
 ## Education
 
-{% include list.html component="card" data="projects" filters="group: education" %}
-
+{% include list.html component="card" data="projects" filter="group == 'education'" %}
