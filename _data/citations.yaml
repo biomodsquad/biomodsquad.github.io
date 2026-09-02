@@ -364,18 +364,20 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000436986704259
-  title: 'Pharmacological Protease Inhibitor Preserves Proteolytic Activity In Breast
-    Cancer Cells: Computational Models To Probe Unexpected Cellular Responses'
-  publisher: FASEB JOURNAL
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436986704259
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000436985002294
-  title: Protease-protease interactions as a microenvironment-dependent regulatory
-    mechanism
-  publisher: FASEB JOURNAL
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436985002294
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -667,10 +669,11 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000321561200316
-  title: Computational and Experimental Analysis of the Interactions Between C3 and
-    Compstatin Family Peptides
-  publisher: BIOPHYSICAL JOURNAL
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000321561200316
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -695,17 +698,20 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000324475104443
-  title: Development of a quasi-dynamic pharmacophore model for cyclic peptidic antagonists
-    of complement receptor C5aR
-  publisher: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104443
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000324475104422
-  title: Electrostatic explorations of immune system regulation and inhibition
-  publisher: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104422
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -724,9 +730,11 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000324475104314
-  title: Role of gp120 V3 loop charge in HIV-1 coreceptor selectivity
-  publisher: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104314
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -812,10 +820,11 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000291982804066
-  title: Electrostatic clustering and free energy calculations for evaluation of protein-protein
-    complexes
-  publisher: ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000291982804066
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -878,10 +887,11 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: wosuid:WOS:000208762003442
-  title: Development of a High-Throughput Computational Protocol, AESOP, and its Application
-    to the Electrostatic Analysis of the SUMO-1:SENP2 Complex
-  publisher: BIOPHYSICAL JOURNAL
-  date: '2026-01-15'
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000208762003442
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
