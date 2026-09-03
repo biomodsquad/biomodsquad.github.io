@@ -129,6 +129,11 @@ for index, source in enumerate(sources):
     if get_safe(source, "remove", False) == True:
         continue
 
+    # ORCID occasionally returns Web of Science placeholder records that do not
+    # contain usable publication metadata and should not appear as publications.
+    if get_safe(source, "id", "").lower().startswith("wosuid:"):
+        continue
+
     # new citation data for source
     citation = {}
 

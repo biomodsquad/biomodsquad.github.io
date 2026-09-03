@@ -372,24 +372,6 @@
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:000436986704259
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436986704259
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
-- id: wosuid:WOS:000436985002294
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000436985002294
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1021/ACSOMEGA.8B00606
   title: Virtual Screening of Chemical Compounds for Discovery of Complement C3 Ligands
   authors:
@@ -677,15 +659,6 @@
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:000321561200316
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000321561200316
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1021/JM201609K
   title: 'De Novo Peptide Design with C3a Receptor Agonist and Antagonist Activities:
     Theoretical Predictions and Experimental Validation'
@@ -706,24 +679,6 @@
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:000324475104443
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104443
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
-- id: wosuid:WOS:000324475104422
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104422
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1371/JOURNAL.PONE.0049925
   title: Insights into the Structure, Correlated Motions, and Electrostatic Properties
     of Two HIV-1 gp120 V3 Loops
@@ -735,15 +690,6 @@
   publisher: PLoS ONE
   date: '2012-11-19'
   link: https://doi.org/f4dw46
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
-- id: wosuid:WOS:000324475104314
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000324475104314
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
@@ -828,15 +774,6 @@
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:000291982804066
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000291982804066
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1016/J.MOLIMM.2011.05.007
   title: "Electrostatic exploration of the C3d\u2013FH4 interaction using a computational\
     \ alanine scan"
@@ -892,15 +829,6 @@
   publisher: Journal of Experimental Botany
   date: '2010-07-28'
   link: https://doi.org/cqfgkv
-  orcid: 0000-0002-1845-6589
-  plugin: orcid.py
-  file: orcid.yaml
-- id: wosuid:WOS:000208762003442
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000208762003442
   orcid: 0000-0002-1845-6589
   plugin: orcid.py
   file: orcid.yaml
