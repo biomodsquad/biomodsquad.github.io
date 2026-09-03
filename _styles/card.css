@@ -32,7 +32,7 @@
 }
 
 .card[data-style=contained] .card-image img {
-  width: 70%;
+  width: 80.5%;
   aspect-ratio: auto;
   object-fit: contain;
 }
