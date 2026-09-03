@@ -1,3 +1,13 @@
+- title: MISTIC
+  subtitle: Feature selection and explanation for support vector machines
+  group: research
+  image: images/mistic-framework.png
+  link: https://biomodsquad.org/interpretable-explainable-svms/index.html
+  description: Python framework for building interpretable support vector machine ensembles, with reproducible cross-validation, kernel-aware feature selection, perturbation ranking, calibrated probability analysis, and local integrated-gradient explanations in one workflow.
+  tags:
+    - software
+    - website
+
 - title: FFT Protein
   subtitle: Interpretable machine learning of protein function using Fourier-based encoding
   group: research
