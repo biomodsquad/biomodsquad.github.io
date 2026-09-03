@@ -13,7 +13,7 @@ biomolecular modeling, machine learning, and global optimization. Accordingly, w
 environment where diverse perspectives and experiences are not only welcomed but sought after.
 
 <div class ="page-image">
-  <img src="{{ "images/biomodsquad_26oct23.jpg" | relative_url }}" alt="BioModSquad group photo">
+  <img src="{{ "images/biomodsquad-team-whitaker.jpg" | relative_url }}" alt="BioModSquad group photo in the Whitaker Building">
 </div>
 
 {% include section.html %}
@@ -39,6 +39,7 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 {% capture content %}
 
+{% include figure.html image="images/biomodsquad_26oct23.jpg" %}
 {% include figure.html image="images/emmanuel.jpg" %}
 {% include figure.html image="images/group_photo_lab.jpg" %}
 {% include figure.html image="images/fani.jpg" %}
