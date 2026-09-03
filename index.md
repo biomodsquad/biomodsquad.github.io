@@ -109,3 +109,15 @@ Our team is highly collaborative and strives to find creative solutions to chall
 
 {% include section.html %}
 
+## Latest News
+
+{% include news-list.html limit=3 empty="The latest BioModSquad news will appear here soon." %}
+
+{%
+  include button.html
+  link="news"
+  text="View all news"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
