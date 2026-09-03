@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% if page.image %}
-  {% include section.html background=page.image %}
-{% endif %}
-
 <article class="news-article">
   <header class="news-article-header">
     <h1 class="center">{{ page.title }}</h1>
@@ -21,6 +17,10 @@ layout: default
   </header>
 
   {% include section.html %}
+
+  {% if page.image %}
+    {% include figure.html image=page.image width="100%" %}
+  {% endif %}
 
   <div class="news-article-content">
     {{ content }}
