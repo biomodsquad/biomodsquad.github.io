@@ -55,7 +55,9 @@
 - id: doi:10.1016/b978-0-443-15274-0.50429-7
   title: Data-driven prediction of peptide-MHC binding using oscillations of physicochemical
     properties
-  authors: []
+  authors:
+  - Hyeju Song
+  - Chris A. Kieslich
   publisher: Computer Aided Chemical Engineering
   date: '2023-01-01'
   link: https://doi.org/gsrr77
@@ -64,7 +66,9 @@
   file: sources.yaml
 - id: doi:10.1016/b978-0-443-15274-0.50428-5
   title: Machine learning models for predicting membranolytic anticancer peptides
-  authors: []
+  authors:
+  - Fatemeh Alimirzaei
+  - Chris A. Kieslich
   publisher: Computer Aided Chemical Engineering
   date: '2023-01-01'
   link: https://doi.org/gsrr78
@@ -88,7 +92,12 @@
 - id: doi:10.1016/B978-0-323-88506-5.50312-0
   title: Data-driven prediction of antiviral peptides based on periodicities of amino
     acid properties
-  authors: []
+  authors:
+  - Chris A. Kieslich
+  - Fatemeh Alimirzaei
+  - Hyeju Song
+  - Matthew Do
+  - Paige Hall
   publisher: Computer Aided Chemical Engineering
   date: '2021-01-01'
   link: https://doi.org/gsrr79
