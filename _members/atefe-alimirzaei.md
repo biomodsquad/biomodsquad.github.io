@@ -3,7 +3,7 @@ name: Dr. Atefe Alimirzaei
 image: images/ati.jpg
 role: postdoc
 group: current
-location: Georgia Tech
+location: 
 links:
   linkedin: atefealimirzaei
   google-scholar: mjj9D3kAAAAJ
