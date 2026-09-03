@@ -1,29 +1,29 @@
 {% assign posts = site.posts | sort: "date" | reverse %}
 
 {% if posts.size > 0 %}
-  {% if include.limit %}
-    <div class="news-list">
-      {% for post in posts limit: include.limit %}
-        {% include post-excerpt.html lookup=post.slug %}
-      {% endfor %}
-    </div>
-  {% else %}
-    {% assign years = posts
-      | group_by_exp: "post", "post.date | date: '%Y'"
-      | sort: "name"
-      | reverse
-    %}
-
-    <div class="news-list">
-      {% for year in years %}
-        <h2 id="{{ year.name }}">{{ year.name }}</h2>
-        {% assign year_posts = year.items | sort: "date" | reverse %}
-        {% for post in year_posts %}
-          {% include post-excerpt.html lookup=post.slug %}
-        {% endfor %}
-      {% endfor %}
-    </div>
-  {% endif %}
+{% if include.limit %}
+<div class="news-list">
+{% for post in posts limit: include.limit %}
+{% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+</div>
 {% else %}
-  <p class="center">{{ include.empty | default: "News and updates will appear here soon." }}</p>
+{% assign years = posts
+  | group_by_exp: "post", "post.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
+
+<div class="news-list">
+{% for year in years %}
+<h2 id="{{ year.name }}">{{ year.name }}</h2>
+{% assign year_posts = year.items | sort: "date" | reverse %}
+{% for post in year_posts %}
+{% include post-excerpt.html lookup=post.slug %}
+{% endfor %}
+{% endfor %}
+</div>
+{% endif %}
+{% else %}
+<p class="center">{{ include.empty | default: "News and updates will appear here soon." }}</p>
 {% endif %}
