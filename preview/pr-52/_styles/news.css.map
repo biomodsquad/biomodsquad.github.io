@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["news.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE","sourcesContent":[".news-list > h2 {\n  margin-top: 40px;\n}\n\n.news-list > h2:first-child {\n  margin-top: 0;\n}\n\n.news-article-header .post-info {\n  justify-content: center;\n}\n\n.news-article-content {\n  margin-inline: auto;\n}\n"],"file":"news.css"}
