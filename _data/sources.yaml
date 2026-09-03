@@ -1,11 +1,23 @@
 - id: doi:10.1016/b978-0-443-15274-0.50429-7
   title: Data-driven prediction of peptide-MHC binding using oscillations of physicochemical
     properties
+  authors:
+    - Hyeju Song
+    - Chris A. Kieslich
 - id: doi:10.1016/b978-0-443-15274-0.50428-5
   title: Machine learning models for predicting membranolytic anticancer peptides
+  authors:
+    - Fatemeh Alimirzaei
+    - Chris A. Kieslich
 - id: doi:10.1016/B978-0-323-88506-5.50312-0
   title: Data-driven prediction of antiviral peptides based on periodicities of amino
     acid properties
+  authors:
+    - Chris A. Kieslich
+    - Fatemeh Alimirzaei
+    - Hyeju Song
+    - Matthew Do
+    - Paige Hall
 - id: doi:10.3389/fmolb.2021.618068
   image: https://www.frontiersin.org/files/Articles/618068/fmolb-08-618068-HTML/image_m/fmolb-08-618068-g005.jpg
 - id: doi:10.1073/pnas.1912207117
