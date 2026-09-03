@@ -1,8 +1,8 @@
 ---
 title: BioModSquad Moves to Georgia Tech
 author: chris-kieslich
-image: images/biomodsquad_2_26oct23.jpg
-thumbnail: images/biomodsquad_2_26oct23.jpg
+image: images/georgia-tech-tech-tower.jpg
+thumbnail: images/georgia-tech-tech-tower.jpg
 tags:
   - announcement
   - lab news
