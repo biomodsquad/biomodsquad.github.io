@@ -17,4 +17,4 @@ Updates, announcements, and recent events from the BioModSquad.
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="post-excerpt" %}
+{% include news-list.html %}
