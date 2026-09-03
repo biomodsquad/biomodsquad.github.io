@@ -39,6 +39,17 @@ therapeutic design, and if interested please reach out to Dr. K about current op
 
 {% capture content %}
 
+{% include figure.html image="images/team-gallery-2025-10-09.jpg" %}
+{% include figure.html image="images/team-gallery-2024-11-19.jpg" %}
+{% include figure.html image="images/team-gallery-2024-11-12-defense.jpg" %}
+{% include figure.html image="images/team-gallery-2024-10-28-b.jpg" %}
+{% include figure.html image="images/team-gallery-2024-10-28-a.jpg" %}
+{% include figure.html image="images/team-gallery-2023-12-08-holiday.jpg" %}
+{% include figure.html image="images/team-gallery-2023-11-08.jpg" %}
+{% include figure.html image="images/team-gallery-2023-11-06.jpg" %}
+{% include figure.html image="images/team-gallery-2022-12-16.jpg" %}
+{% include figure.html image="images/team-gallery-2021-12-08-lab.jpg" %}
+{% include figure.html image="images/team-gallery-2021-09-03-meeting.jpg" %}
 {% include figure.html image="images/biomodsquad_26oct23.jpg" %}
 {% include figure.html image="images/emmanuel.jpg" %}
 {% include figure.html image="images/group_photo_lab.jpg" %}
