@@ -2,6 +2,7 @@
   subtitle: Feature selection and explanation for support vector machines
   group: research
   image: images/mistic-framework.png
+  style: contained
   link: https://biomodsquad.org/interpretable-explainable-svms/index.html
   description: Python framework for building interpretable support vector machine ensembles, with reproducible cross-validation, kernel-aware feature selection, perturbation ranking, calibrated probability analysis, and local integrated-gradient explanations in one workflow.
   tags:
