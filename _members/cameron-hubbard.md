@@ -3,7 +3,7 @@ name: Cameron Hubbard
 image: images/cameron-hubbard.jpg
 role: phd
 group: current
-location: Ford ES&T 1356
+location: ChBE
 links:
   email: chubbard32@gatech.edu
 ---
