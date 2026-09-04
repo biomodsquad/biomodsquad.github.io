@@ -1,6 +1,6 @@
 ---
 name: Cameron Hubbard
-image: images/cameron-hubbard.jpeg
+image: images/cameron-hubbard.jpg
 role: phd
 group: current
 location: Ford ES&T 1356
