@@ -29,7 +29,7 @@
   tags:
     - software
 
-- title: Smolyak
+- title: Smolyay
   subtitle: Python tools for surrogate modeling using the Smolyak sparse grid method.
   group: research
   image: images/smolyak.png
