@@ -9,13 +9,14 @@
     - software
     - website
 
-- title: FFT Protein
-  subtitle: Interpretable machine learning of protein function using Fourier-based encoding
+- title: Protspect
+  subtitle: Spectral analysis of protein and peptide sequences
   group: research
-  image: images/fftML.png
-  link: 
-  description: Python package for developing and analyzing machine learned models of protein function and properties that leverage periodicities in physicochemical properties along protein sequences. 
-  repo: 
+  image: images/protspect-schematic.png
+  style: contained
+  link: https://biomodsquad.org/protein-sequence-spectral-analysis/
+  description: Python package for transforming protein and peptide sequences into spectral features using residue-property representations.
+  repo: biomodsquad/protein-sequence-spectral-analysis
   tags:
     - software
 
