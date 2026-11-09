@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.10.27.762298
+  title: 'Computational alternative to cardiac biopsy in multiple myeloma: utilizing
+    the shape of routine laboratory data for the classification of AL cardiac amyloidosis'
+  authors:
+  - Maegan A. Cremer
+  - Hyeju Song
+  - Michael G. Fradley
+  - Isaac B. Rhea
+  - Chris A. Kieslich
+  - Meghan C. Ferrall-Fairbanks
+  publisher: openRxiv
+  date: '2026-10-28'
+  link: https://doi.org/hcqxxq
+  orcid: 0000-0002-1845-6589
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1063/5.0318270
   title: Approximation of forces and torques from anisotropic pairwise interactions
     using multivariate polynomials
